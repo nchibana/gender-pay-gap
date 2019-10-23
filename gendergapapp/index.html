@@ -1,0 +1,1920 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <title>The Gender Wage Gap</title>
+    <meta nam="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <meta nam="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Montserrat:100,300,400,500,600,700" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/reset.css"> -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<!-- <div class="scaleable-wrapper" id="scaleable-wrapper"> -->
+<body>
+  <!-- <div class="scaleable-wrapper" id="scaleable-wrapper"> -->
+    <!-- <div class="scaleable-wrapper" id="scaleable-wrapper">
+  
+  <div class="very-specific-design" id="very-specific-design"> -->
+    <header class="gapHeader">
+            <div class="toptitle">
+                <h1><span class="maintitle">THE GENDER WAGE GAP</span></h1>
+            </div>
+            <div class="separator">
+                <hr>
+            </div>
+            <div class="subtitle">
+                <h2><span class="firstline">The Impact of Marital Status</span></h2>
+                <h2><span class="secondline">and Parenthood</span></h2>
+            </div>
+            <div class="summary">
+                    <p class="intro">We analyzed the pay gap across 467 U.S. occupations. According to our analysis, the main source of the pay gap lies in the difference between the number of hours spent at work by women and men. On average, women work less hours after marriage and parenthood, while men work more.</p>
+            </div>
+
+    </header>
+     <main class="infoMain">
+        <section class="autocomplete-drop-down">
+            <div class="occupations-input-container">
+                <!-- <div class="occupations-list-container"> -->
+                    <input class="occupations-input" onfocus="this.value=''" placeholder="Enter an occupation" type="text" list="jobs" autocomplete="off">
+                     <div class="input-underline"></div>
+                    <span class="input-arrow">&#8250;</span>
+                    <!-- <div class="occupations-list-container">
+                    <div class="occupations-list"> -->
+                    <datalist onclick="dropdownChange()" id="jobs">
+                        <select onclick="dropdownChange()">
+                                   <option value='Accountants and auditors'>Accountants and auditors</option>
+                                   <option value='Actors'>Actors</option>
+                                   <option value='Actuaries'>Actuaries</option>
+                                   <option value='Adhesive Bonding Machine Operators and Tenders'>Adhesive Bonding Machine Operators and Tenders</option>
+                                   <option value='Administrative services managers'>Administrative services managers</option>
+                                   <option value='Advertising and promotions managers'>Advertising and promotions managers</option>
+                                   <option value='Advertising Sales Agents'>Advertising Sales Agents</option>
+                                   <option value='Aerospace Engineers'>Aerospace Engineers</option>
+                                   <option value='Agents and business managers of artists, performers, and atheletes'>Agents and business managers of artists, performers, and atheletes</option>
+                                   <option value='Agricultural and Food Science Technicians'>Agricultural and Food Science Technicians</option>
+                                   <option value='Agricultural and Food Scientists'>Agricultural and Food Scientists</option>
+                                   <option value='Agricultural Inspectors'>Agricultural Inspectors</option>
+                                   <option value='Air Traffic Controllers and Airfield Operations Specialists'>Air Traffic Controllers and Airfield Operations Specialists</option>
+                                   <option value='Aircraft Mechanics and Service Technicians'>Aircraft Mechanics and Service Technicians</option>
+                                   <option value='Aircraft Pilots and Flight Engineers'>Aircraft Pilots and Flight Engineers</option>
+                                   <option value='Aircraft Structure, Surfaces, Rigging, and Systems Assemblers'>Aircraft Structure, Surfaces, Rigging, and Systems Assemblers</option>
+                                   <option value='Ambulance Drivers and Attendants, Except Emergency Medical Technicians'>Ambulance Drivers and Attendants, Except Emergency Medical Technicians</option>
+                                   <option value='Animal Control Workers'>Animal Control Workers</option>
+                                   <option value='Animal Trainers'>Animal Trainers</option>
+                                   <option value='Announcers'>Announcers</option>
+                                   <option value='Appraisers and assessors of real estate'>Appraisers and assessors of real estate</option>
+                                   <option value='Architects, Except Naval'>Architects, Except Naval</option>
+                                   <option value='Architectural and engineering managers'>Architectural and engineering managers</option>
+                                   <option value='Archivists, Curators, and Museum Technicians'>Archivists, Curators, and Museum Technicians</option>
+                                   <option value='Artists and Related Workers'>Artists and Related Workers</option>
+                                   <option value='Astronomers and Physicists'>Astronomers and Physicists</option>
+                                   <option value='Athletes, Coaches, Umpires, and Related Workers'>Athletes, Coaches, Umpires, and Related Workers</option>
+                                   <option value='Atmospheric and Space Scientists'>Atmospheric and Space Scientists</option>
+                                   <option value='Audiologists'>Audiologists</option>
+                                   <option value='Automotive and Watercraft Service Attendants'>Automotive and Watercraft Service Attendants</option>
+                                   <option value='Automotive Body and Related Repairers'>Automotive Body and Related Repairers</option>
+                                   <option value='Automotive Service Technicians and Mechanics'>Automotive Service Technicians and Mechanics</option>
+                                   <option value='Avionics Technicians'>Avionics Technicians</option>
+                                   <option value='Baggage Porters, Bellhops, and Concierges'>Baggage Porters, Bellhops, and Concierges</option>
+                                   <option value='Bailiffs, Correctional Officers, and Jailers'>Bailiffs, Correctional Officers, and Jailers</option>
+                                   <option value='Bakers'>Bakers</option>
+                                   <option value='Barbers'>Barbers</option>
+                                   <option value='Bartenders'>Bartenders</option>
+                                   <option value='Bill and Account Collectors'>Bill and Account Collectors</option>
+                                   <option value='Billing and Posting Clerks'>Billing and Posting Clerks</option>
+                                   <option value='Biological Scientists'>Biological Scientists</option>
+                                   <option value='Biological Technicians'>Biological Technicians</option>
+                                   <option value='Biomedical and agricultural engineers'>Biomedical and agricultural engineers</option>
+                                   <option value='Bookkeeping, Accounting, and Auditing Clerks'>Bookkeeping, Accounting, and Auditing Clerks</option>
+                                   <option value='Brickmasons, blockmasons, stonemasons, and reinforcing iron and rebar workers'>Brickmasons, blockmasons, stonemasons, and reinforcing iron and rebar workers</option>
+                                   <option value='Broadcast and Sound Engineering Technicians and Radio Operators, and media and communication equipment workers, all other'>Broadcast and Sound Engineering Technicians and Radio Operators, and media and communication equipment workers, all other</option>
+                                   <option value='Brokerage Clerks'>Brokerage Clerks</option>
+                                   <option value='Budget analysts'>Budget analysts</option>
+                                   <option value='Bus and Truck Mechanics and Diesel Engine Specialists'>Bus and Truck Mechanics and Diesel Engine Specialists</option>
+                                   <option value='Bus Drivers'>Bus Drivers</option>
+                                   <option value='Business operations specialists, all others'>Business operations specialists, all others</option>
+                                   <option value='Butchers and Other Meat, Poultry, and Fish Processing Workers'>Butchers and Other Meat, Poultry, and Fish Processing Workers</option>
+                                   <option value='Buyers and purchasing agents, farm products'>Buyers and purchasing agents, farm products</option>
+                                   <option value='Cabinetmakers and Bench Carpenters'>Cabinetmakers and Bench Carpenters</option>
+                                   <option value='Cargo and Freight Agents'>Cargo and Freight Agents</option>
+                                   <option value='Carpenters'>Carpenters</option>
+                                   <option value='Carpet, Floor, and Tile Installers and Finishers'>Carpet, Floor, and Tile Installers and Finishers</option>
+                                   <option value='Cashiers'>Cashiers</option>
+                                   <option value='Chefs and Head Cooks'>Chefs and Head Cooks</option>
+                                   <option value='Chemical Engineers'>Chemical Engineers</option>
+                                   <option value='Chemical Processing Machine Setters, Operators, and Tenders'>Chemical Processing Machine Setters, Operators, and Tenders</option>
+                                   <option value='Chemical Technicians'>Chemical Technicians</option>
+                                   <option value='Chemists and Materials Scientists'>Chemists and Materials Scientists</option>
+                                   <option value='Chief executives and legislators'>Chief executives and legislators</option>
+                                   <option value='Childcare Workers'>Childcare Workers</option>
+                                   <option value='Chiropractors'>Chiropractors</option>
+                                   <option value='Civil Engineers'>Civil Engineers</option>
+                                   <option value='Claims adjusters, appraisers, examiners, and investigators'>Claims adjusters, appraisers, examiners, and investigators</option>
+                                   <option value='Cleaners of Vehicles and Equipment'>Cleaners of Vehicles and Equipment</option>
+                                   <option value='Clergy'>Clergy</option>
+                                   <option value='Clinical Laboratory Technologists and Technicians'>Clinical Laboratory Technologists and Technicians</option>
+                                   <option value='Coin, Vending, and Amusement Machine Servicers and Repairers'>Coin, Vending, and Amusement Machine Servicers and Repairers</option>
+                                   <option value='Combined Food Preparation and Serving Workers, Including Fast Food'>Combined Food Preparation and Serving Workers, Including Fast Food</option>
+                                   <option value='Communications Equipment Operators, All Other'>Communications Equipment Operators, All Other</option>
+                                   <option value='Compensation and benefits managers'>Compensation and benefits managers</option>
+                                   <option value='Compensation, benefits, and job analysis specialists'>Compensation, benefits, and job analysis specialists</option>
+                                   <option value='Compliance officers'>Compliance officers</option>
+                                   <option value='Computer and information research scientists'>Computer and information research scientists</option>
+                                   <option value='Computer and information systems managers'>Computer and information systems managers</option>
+                                   <option value='Computer Control Programmers and Operators'>Computer Control Programmers and Operators</option>
+                                   <option value='Computer Hardware Engineers'>Computer Hardware Engineers</option>
+                                   <option value='Computer network architects'>Computer network architects</option>
+                                   <option value='Computer occupations, all other'>Computer occupations, all other</option>
+                                   <option value='Computer Operators'>Computer Operators</option>
+                                   <option value='Computer programmers'>Computer programmers</option>
+                                   <option value='Computer support specialists'>Computer support specialists</option>
+                                   <option value='Computer systems analysts'>Computer systems analysts</option>
+                                   <option value='Computer, Automated Teller, and Office Machine Repairers'>Computer, Automated Teller, and Office Machine Repairers</option>
+                                   <option value='Conservation Scientists and Foresters'>Conservation Scientists and Foresters</option>
+                                   <option value='Construction and Building Inspectors'>Construction and Building Inspectors</option>
+                                   <option value='Construction equipment operators except paving, surfacing, and tamping equipment operators'>Construction equipment operators except paving, surfacing, and tamping equipment operators</option>
+                                   <option value='Construction Laborers'>Construction Laborers</option>
+                                   <option value='Construction managers'>Construction managers</option>
+                                   <option value='Control and Valve Installers and Repairers'>Control and Valve Installers and Repairers</option>
+                                   <option value='Conveyor operators and tenders, and hoist and winch operators'>Conveyor operators and tenders, and hoist and winch operators</option>
+                                   <option value='Cooks'>Cooks</option>
+                                   <option value='Correspondent clerks and order clerks'>Correspondent clerks and order clerks</option>
+                                   <option value='Cost estimators'>Cost estimators</option>
+                                   <option value='Counselors'>Counselors</option>
+                                   <option value='Counter and Rental Clerks'>Counter and Rental Clerks</option>
+                                   <option value='Counter Attendant, Cafeteria, Food Concession, and Coffee Shop'>Counter Attendant, Cafeteria, Food Concession, and Coffee Shop</option>
+                                   <option value='Couriers and Messengers'>Couriers and Messengers</option>
+                                   <option value='Court, Municipal, and License Clerks'>Court, Municipal, and License Clerks</option>
+                                   <option value='Crane and Tower Operators'>Crane and Tower Operators</option>
+                                   <option value='Credit analysts'>Credit analysts</option>
+                                   <option value='Credit Authorizers, Checkers, and Clerks'>Credit Authorizers, Checkers, and Clerks</option>
+                                   <option value='Credit counselors and loan officers'>Credit counselors and loan officers</option>
+                                   <option value='Crossing Guards'>Crossing Guards</option>
+                                   <option value='Crushing, Grinding, Polishing, Mixing, and Blending Workers'>Crushing, Grinding, Polishing, Mixing, and Blending Workers</option>
+                                   <option value='Customer Service Representatives'>Customer Service Representatives</option>
+                                   <option value='Cutting Workers'>Cutting Workers</option>
+                                   <option value='Dancers and Choreographers'>Dancers and Choreographers</option>
+                                   <option value='Data Entry Keyers'>Data Entry Keyers</option>
+                                   <option value='Database Administrators'>Database Administrators</option>
+                                   <option value='Dental assistants'>Dental assistants</option>
+                                   <option value='Dental Hygienists'>Dental Hygienists</option>
+                                   <option value='Dentists'>Dentists</option>
+                                   <option value='Derrick, rotary drill, and service unit operators, and roustabouts, oil, gas, and mining'>Derrick, rotary drill, and service unit operators, and roustabouts, oil, gas, and mining</option>
+                                   <option value='Designers'>Designers</option>
+                                   <option value='Detectives and Criminal Investigators'>Detectives and Criminal Investigators</option>
+                                   <option value='Diagnostic Related Technologists and Technicians'>Diagnostic Related Technologists and Technicians</option>
+                                   <option value='Dieticians and Nutritionists'>Dieticians and Nutritionists</option>
+                                   <option value='Directors, Religious Activities and Education'>Directors, Religious Activities and Education</option>
+                                   <option value='Dishwashers'>Dishwashers</option>
+                                   <option value='Dispatchers'>Dispatchers</option>
+                                   <option value='DoortoDoor Sales Workers, News and Street Vendors, and Related Workers'>DoortoDoor Sales Workers, News and Street Vendors, and Related Workers</option>
+                                   <option value='Drafters'>Drafters</option>
+                                   <option value='Dredge, Excavating, and Loading Machine Operators'>Dredge, Excavating, and Loading Machine Operators</option>
+                                   <option value='Driver/Sales Workers and Truck Drivers'>Driver/Sales Workers and Truck Drivers</option>
+                                   <option value='Drywall Installers, Ceiling Tile Installers, and Tapers'>Drywall Installers, Ceiling Tile Installers, and Tapers</option>
+                                   <option value='Earth Drillers, Except Oil and Gas'>Earth Drillers, Except Oil and Gas</option>
+                                   <option value='Economists'>Economists</option>
+                                   <option value='Editors'>Editors</option>
+                                   <option value='Education administrators'>Education administrators</option>
+                                   <option value='Electric Motor, Power Tool, and Related Repairers'>Electric Motor, Power Tool, and Related Repairers</option>
+                                   <option value='Electrical and Electronics Engineers'>Electrical and Electronics Engineers</option>
+                                   <option value='Electrical and electronics repairers, transportation equipment, and industrial and utility'>Electrical and electronics repairers, transportation equipment, and industrial and utility</option>
+                                   <option value='Electrical PowerLine Installers and Repairers'>Electrical PowerLine Installers and Repairers</option>
+                                   <option value='Electrical, Electronics, and Electromechanical Assemblers'>Electrical, Electronics, and Electromechanical Assemblers</option>
+                                   <option value='Electricians'>Electricians</option>
+                                   <option value='Electronic Equipment Installers and Repairers, Motor Vehicles'>Electronic Equipment Installers and Repairers, Motor Vehicles</option>
+                                   <option value='Electronic Home Entertainment Equipment Installers and Repairers'>Electronic Home Entertainment Equipment Installers and Repairers</option>
+                                   <option value='Elementary and Middle School Teachers'>Elementary and Middle School Teachers</option>
+                                   <option value='Elevator Installers and Repairers'>Elevator Installers and Repairers</option>
+                                   <option value='Eligibility Interviewers, Government Programs'>Eligibility Interviewers, Government Programs</option>
+                                   <option value='Embalmers and Funeral Attendants'>Embalmers and Funeral Attendants</option>
+                                   <option value='Emergency management directors'>Emergency management directors</option>
+                                   <option value='Emergency Medical Technicians and Paramedics'>Emergency Medical Technicians and Paramedics</option>
+                                   <option value='Engine and Other Machine Assemblers'>Engine and Other Machine Assemblers</option>
+                                   <option value='Engineering Technicians, Except Drafters'>Engineering Technicians, Except Drafters</option>
+                                   <option value='Entertainers and Performers, Sports and Related Workers, All Other'>Entertainers and Performers, Sports and Related Workers, All Other</option>
+                                   <option value='Environmental Engineers'>Environmental Engineers</option>
+                                   <option value='Environmental Scientists and Geoscientists'>Environmental Scientists and Geoscientists</option>
+                                   <option value='Etchers and Engravers'>Etchers and Engravers</option>
+                                   <option value='Explosives Workers, Ordnance Handling Experts, and Blasters'>Explosives Workers, Ordnance Handling Experts, and Blasters</option>
+                                   <option value='Extruding and Drawing Machine Setters, Operators, and Tenders, Metal and Plastic'>Extruding and Drawing Machine Setters, Operators, and Tenders, Metal and Plastic</option>
+                                   <option value='Extruding, Forming, Pressing, and Compacting Machine Setters, Operators, and Tenders'>Extruding, Forming, Pressing, and Compacting Machine Setters, Operators, and Tenders</option>
+                                   <option value='Farmers, ranchers, and other agricultural managers'>Farmers, ranchers, and other agricultural managers</option>
+                                   <option value='Fence Erectors'>Fence Erectors</option>
+                                   <option value='File Clerks'>File Clerks</option>
+                                   <option value='Financial analysts'>Financial analysts</option>
+                                   <option value='Financial clerks, all other'>Financial clerks, all other</option>
+                                   <option value='Financial examiners'>Financial examiners</option>
+                                   <option value='Financial managers'>Financial managers</option>
+                                   <option value='Financial specialists, all other'>Financial specialists, all other</option>
+                                   <option value='Fire Inspectors'>Fire Inspectors</option>
+                                   <option value='Firefighters'>Firefighters</option>
+                                   <option value='FirstLine Enlisted Military Supervisors'>FirstLine Enlisted Military Supervisors</option>
+                                   <option value='FirstLine Supervisors of Construction Trades and Extraction Workers'>FirstLine Supervisors of Construction Trades and Extraction Workers</option>
+                                   <option value='FirstLine Supervisors of Correctional Officers'>FirstLine Supervisors of Correctional Officers</option>
+                                   <option value='FirstLine Supervisors of Farming, Fishing, and Forestry Workers'>FirstLine Supervisors of Farming, Fishing, and Forestry Workers</option>
+                                   <option value='FirstLine Supervisors of Fire Fighting and Prevention Workers'>FirstLine Supervisors of Fire Fighting and Prevention Workers</option>
+                                   <option value='FirstLine Supervisors of Food Preparation and Serving Workers'>FirstLine Supervisors of Food Preparation and Serving Workers</option>
+                                   <option value='FirstLine Supervisors of Gaming Workers'>FirstLine Supervisors of Gaming Workers</option>
+                                   <option value='FirstLine Supervisors of Housekeeping and Janitorial Workers'>FirstLine Supervisors of Housekeeping and Janitorial Workers</option>
+                                   <option value='FirstLine Supervisors of Landscaping, Lawn Service, and Groundskeeping Workers'>FirstLine Supervisors of Landscaping, Lawn Service, and Groundskeeping Workers</option>
+                                   <option value='FirstLine Supervisors of Mechanics, Installers, and Repairers'>FirstLine Supervisors of Mechanics, Installers, and Repairers</option>
+                                   <option value='FirstLine Supervisors of NonRetail Sales'>FirstLine Supervisors of NonRetail Sales</option>
+                                   <option value='FirstLine Supervisors of Office and Administrative Support Workers'>FirstLine Supervisors of Office and Administrative Support Workers</option>
+                                   <option value='FirstLine Supervisors of Personal Service Workers'>FirstLine Supervisors of Personal Service Workers</option>
+                                   <option value='FirstLine Supervisors of Police and Detectives'>FirstLine Supervisors of Police and Detectives</option>
+                                   <option value='FirstLine Supervisors of Production and Operating Workers'>FirstLine Supervisors of Production and Operating Workers</option>
+                                   <option value='Firstline supervisors of protective service workers, all other'>Firstline supervisors of protective service workers, all other</option>
+                                   <option value='FirstLine Supervisors of Retail Sales Workers'>FirstLine Supervisors of Retail Sales Workers</option>
+                                   <option value='Fishing and hunting workers'>Fishing and hunting workers</option>
+                                   <option value='Flight attendants'>Flight attendants</option>
+                                   <option value='Food and Tobacco Roasting, Baking, and Drying Machine Operators and Tenders'>Food and Tobacco Roasting, Baking, and Drying Machine Operators and Tenders</option>
+                                   <option value='Food Batchmakers'>Food Batchmakers</option>
+                                   <option value='Food Cooking Machine Operators and Tenders'>Food Cooking Machine Operators and Tenders</option>
+                                   <option value='Food Preparation Workers'>Food Preparation Workers</option>
+                                   <option value='Food Processing Workers, All Other'>Food Processing Workers, All Other</option>
+                                   <option value='Food Servers, Nonrestaurant'>Food Servers, Nonrestaurant</option>
+                                   <option value='Food service managers'>Food service managers</option>
+                                   <option value='Forest and Conservation Workers'>Forest and Conservation Workers</option>
+                                   <option value='Fundraisers'>Fundraisers</option>
+                                   <option value='Furnace, Kiln, Oven, Drier, and Kettle Operators and Tenders'>Furnace, Kiln, Oven, Drier, and Kettle Operators and Tenders</option>
+                                   <option value='Furniture Finishers'>Furniture Finishers</option>
+                                   <option value='Gaming Cage Workers'>Gaming Cage Workers</option>
+                                   <option value='Gaming managers'>Gaming managers</option>
+                                   <option value='Gaming Services Workers'>Gaming Services Workers</option>
+                                   <option value='General and operations managers'>General and operations managers</option>
+                                   <option value='Geological and Petroleum Technicians'>Geological and Petroleum Technicians</option>
+                                   <option value='Glaziers'>Glaziers</option>
+                                   <option value='Graders and Sorters, Agricultural Products'>Graders and Sorters, Agricultural Products</option>
+                                   <option value='Grounds Maintenance Workers'>Grounds Maintenance Workers</option>
+                                   <option value='Hairdressers, Hairstylists, and Cosmetologists'>Hairdressers, Hairstylists, and Cosmetologists</option>
+                                   <option value='Hazardous Materials Removal Workers'>Hazardous Materials Removal Workers</option>
+                                   <option value='Health Diagnosing and Treating Practitioners, All Other'>Health Diagnosing and Treating Practitioners, All Other</option>
+                                   <option value='Health practitioner support technologists and technicians'>Health practitioner support technologists and technicians</option>
+                                   <option value='Healthcare support workers, all other, including medical equipment preparers'>Healthcare support workers, all other, including medical equipment preparers</option>
+                                   <option value='Heating, Air Conditioning, and Refrigeration Mechanics and Installers'>Heating, Air Conditioning, and Refrigeration Mechanics and Installers</option>
+                                   <option value='Heavy Vehicle and Mobile Equipment Service Technicians and Mechanics'>Heavy Vehicle and Mobile Equipment Service Technicians and Mechanics</option>
+                                   <option value='Helpers, Construction Trades'>Helpers, Construction Trades</option>
+                                   <option value='HelpersInstallation, Maintenance, and Repair Workers'>HelpersInstallation, Maintenance, and Repair Workers</option>
+                                   <option value='HelpersProduction Workers'>HelpersProduction Workers</option>
+                                   <option value='Highway Maintenance Workers'>Highway Maintenance Workers</option>
+                                   <option value='Home Appliance Repairers'>Home Appliance Repairers</option>
+                                   <option value='Host and Hostesses, Restaurant, Lounge, and Coffee Shop'>Host and Hostesses, Restaurant, Lounge, and Coffee Shop</option>
+                                   <option value='Hotel, Motel, and Resort Desk Clerks'>Hotel, Motel, and Resort Desk Clerks</option>
+                                   <option value='Human resource workers'>Human resource workers</option>
+                                   <option value='Human Resources Assistants, Except Payroll and Timekeeping'>Human Resources Assistants, Except Payroll and Timekeeping</option>
+                                   <option value='Human resources managers'>Human resources managers</option>
+                                   <option value='Industrial and Refractory Machinery Mechanics'>Industrial and Refractory Machinery Mechanics</option>
+                                   <option value='Industrial Engineers, including Health and Safety'>Industrial Engineers, including Health and Safety</option>
+                                   <option value='Industrial production managers'>Industrial production managers</option>
+                                   <option value='Industrial Truck and Tractor Operators'>Industrial Truck and Tractor Operators</option>
+                                   <option value='Information and Record Clerks, All Other'>Information and Record Clerks, All Other</option>
+                                   <option value='Information security analysts'>Information security analysts</option>
+                                   <option value='Inspectors, Testers, Sorters, Samplers, and Weighers'>Inspectors, Testers, Sorters, Samplers, and Weighers</option>
+                                   <option value='Insulation Workers'>Insulation Workers</option>
+                                   <option value='Insurance Claims and Policy Processing Clerks'>Insurance Claims and Policy Processing Clerks</option>
+                                   <option value='Insurance Sales Agents'>Insurance Sales Agents</option>
+                                   <option value='Insurance underwriters'>Insurance underwriters</option>
+                                   <option value='Interviewers, Except Eligibility and Loan'>Interviewers, Except Eligibility and Loan</option>
+                                   <option value='Janitors and Building Cleaners'>Janitors and Building Cleaners</option>
+                                   <option value='Jewelers and Precious Stone and Metal Workers'>Jewelers and Precious Stone and Metal Workers</option>
+                                   <option value='Judicial law clerks'>Judicial law clerks</option>
+                                   <option value='Laborers and Freight, Stock, and Material Movers'>Laborers and Freight, Stock, and Material Movers</option>
+                                   <option value='Laundry and DryCleaning Workers'>Laundry and DryCleaning Workers</option>
+                                   <option value='Lawyers, and judges, magistrates, and other judicial workers'>Lawyers, and judges, magistrates, and other judicial workers</option>
+                                   <option value='Librarians'>Librarians</option>
+                                   <option value='Library Assistants, Clerical'>Library Assistants, Clerical</option>
+                                   <option value='Library Technicians'>Library Technicians</option>
+                                   <option value='Licensed Practical and Licensed Vocational Nurses'>Licensed Practical and Licensed Vocational Nurses</option>
+                                   <option value='Lifeguards and Other Recreational, and All Other Protective Service Workers'>Lifeguards and Other Recreational, and All Other Protective Service Workers</option>
+                                   <option value='Loan Interviewers and Clerks'>Loan Interviewers and Clerks</option>
+                                   <option value='Locomotive Engineers and Operators'>Locomotive Engineers and Operators</option>
+                                   <option value='Lodging managers'>Lodging managers</option>
+                                   <option value='Logging Workers'>Logging Workers</option>
+                                   <option value='Logisticians'>Logisticians</option>
+                                   <option value='Machine Feeders and Offbearers'>Machine Feeders and Offbearers</option>
+                                   <option value='Machine tool cutting setters, operators, and tenders, metal and plastic'>Machine tool cutting setters, operators, and tenders, metal and plastic</option>
+                                   <option value='Machinists'>Machinists</option>
+                                   <option value='Mavalues and Housekeeping Cleaners'>Mavalues and Housekeeping Cleaners</option>
+                                   <option value='Mail Clerks and Mail Machine Operators, Except Postal Service'>Mail Clerks and Mail Machine Operators, Except Postal Service</option>
+                                   <option value='Maintenance and Repair Workers, General'>Maintenance and Repair Workers, General</option>
+                                   <option value='Maintenance Workers, Machinery'>Maintenance Workers, Machinery</option>
+                                   <option value='Management analysts'>Management analysts</option>
+                                   <option value='Managers'>Managers</option>
+                                   <option value='Marine Engineers and Naval Architects'>Marine Engineers and Naval Architects</option>
+                                   <option value='Market research analysts and marketing specialists'>Market research analysts and marketing specialists</option>
+                                   <option value='Marketing and sales managers'>Marketing and sales managers</option>
+                                   <option value='Massage therapists'>Massage therapists</option>
+                                   <option value='Materials Engineers'>Materials Engineers</option>
+                                   <option value='Mathematical science occupations'>Mathematical science occupations</option>
+                                   <option value='Mechanical Engineers'>Mechanical Engineers</option>
+                                   <option value='Medical and health service managers'>Medical and health service managers</option>
+                                   <option value='Medical assistants'>Medical assistants</option>
+                                   <option value='Medical Records and Health Information Technicians'>Medical Records and Health Information Technicians</option>
+                                   <option value='Medical Scientists, and Life Scientists, All Others'>Medical Scientists, and Life Scientists, All Others</option>
+                                   <option value='Medical transcriptionists'>Medical transcriptionists</option>
+                                   <option value='Medical, Dental, and Ophthalmic Laboratory Technicians'>Medical, Dental, and Ophthalmic Laboratory Technicians</option>
+                                   <option value='Meeting, convention, and event planners'>Meeting, convention, and event planners</option>
+                                   <option value='Metal Furnace Operators, Tenders, Pourers, and Casters'>Metal Furnace Operators, Tenders, Pourers, and Casters</option>
+                                   <option value='Meter Readers, Utilities'>Meter Readers, Utilities</option>
+                                   <option value='Military Enlisted Tactical Operations and Air/Weapons Specialists and Crew Members'>Military Enlisted Tactical Operations and Air/Weapons Specialists and Crew Members</option>
+                                   <option value='Military Officer Special and Tactical Operations Leaders'>Military Officer Special and Tactical Operations Leaders</option>
+                                   <option value='Military, Rank Not Specified'>Military, Rank Not Specified</option>
+                                   <option value='Millwrights'>Millwrights</option>
+                                   <option value='Miscellaneous agricultural workers including animal breeders'>Miscellaneous agricultural workers including animal breeders</option>
+                                   <option value='Miscellaneous Assemblers and Fabricators'>Miscellaneous Assemblers and Fabricators</option>
+                                   <option value='Miscellaneous Community and Social Service Specialists, Including Health Educators and Community Health Workers'>Miscellaneous Community and Social Service Specialists, Including Health Educators and Community Health Workers</option>
+                                   <option value='Miscellaneous construction workers including solar photovaltaic installers, and septic tank servicers and sewer pipe cleaners'>Miscellaneous construction workers including solar photovaltaic installers, and septic tank servicers and sewer pipe cleaners</option>
+                                   <option value='Miscellaneous engineeers including nuclear engineers'>Miscellaneous engineeers including nuclear engineers</option>
+                                   <option value='Miscellaneous Entertainment Attendants and Related Workers'>Miscellaneous Entertainment Attendants and Related Workers</option>
+                                   <option value='Miscellaneous extraction workers including roof bolters and helpers'>Miscellaneous extraction workers including roof bolters and helpers</option>
+                                   <option value='Miscellaneous food preparation and serving related workers including dining room and cafeteria attendants and bartender helpers'>Miscellaneous food preparation and serving related workers including dining room and cafeteria attendants and bartender helpers</option>
+                                   <option value='Miscellaneous health technologists and technicians'>Miscellaneous health technologists and technicians</option>
+                                   <option value='Miscellaneous installation, maintenance, and repair workers, including wind turbine service technicians'>Miscellaneous installation, maintenance, and repair workers, including wind turbine service technicians</option>
+                                   <option value='Miscellaneous law enforcement workers'>Miscellaneous law enforcement workers</option>
+                                   <option value='Miscellaneous legal support workers'>Miscellaneous legal support workers</option>
+                                   <option value='Miscellaneous Life, Physical, and Social Science Technicians'>Miscellaneous Life, Physical, and Social Science Technicians</option>
+                                   <option value='Miscellaneous material moving workers including shuttle car operators, and tank car, truck, and ship loaders'>Miscellaneous material moving workers including shuttle car operators, and tank car, truck, and ship loaders</option>
+                                   <option value='Miscellaneous Media and Communication Workers'>Miscellaneous Media and Communication Workers</option>
+                                   <option value='Miscellaneous metal workers and plastic workers, including multiple machine tool setters'>Miscellaneous metal workers and plastic workers, including multiple machine tool setters</option>
+                                   <option value='Miscellaneous office and administrative support workers including desktop publishers'>Miscellaneous office and administrative support workers including desktop publishers</option>
+                                   <option value='Miscellaneous Personal Appearance Workers'>Miscellaneous Personal Appearance Workers</option>
+                                   <option value='Miscellaneous Plant and System Operators'>Miscellaneous Plant and System Operators</option>
+                                   <option value='Miscellaneous production workers, including semiconductor processors'>Miscellaneous production workers, including semiconductor processors</option>
+                                   <option value='Miscellaneous textile, apparel, and furnishings workers except upholsterers'>Miscellaneous textile, apparel, and furnishings workers except upholsterers</option>
+                                   <option value='Miscellaneous Vehicle and Mobile Equipment Mechanics, Installers, and Repairers'>Miscellaneous Vehicle and Mobile Equipment Mechanics, Installers, and Repairers</option>
+                                   <option value='Miscellaneous woodworkers including model makers and patternmakers'>Miscellaneous woodworkers including model makers and patternmakers</option>
+                                   <option value='Model makers, patternmakers, and molding machine setters, metal and plastic'>Model makers, patternmakers, and molding machine setters, metal and plastic</option>
+                                   <option value='Models, Demonstrators, and Product Promoters'>Models, Demonstrators, and Product Promoters</option>
+                                   <option value='Molders, Shapers, and Casters, Except Metal and Plastic'>Molders, Shapers, and Casters, Except Metal and Plastic</option>
+                                   <option value='Morticians, undertakers, and funeral directors'>Morticians, undertakers, and funeral directors</option>
+                                   <option value='Motor Vehicle Operators, All Other'>Motor Vehicle Operators, All Other</option>
+                                   <option value='Musicians, Singers, and Related Workers'>Musicians, Singers, and Related Workers</option>
+                                   <option value='Natural science managers'>Natural science managers</option>
+                                   <option value='Network and Computer Systems Administrators'>Network and Computer Systems Administrators</option>
+                                   <option value='New Account Clerks'>New Account Clerks</option>
+                                   <option value='News Analysts, Reporters and Correspondents'>News Analysts, Reporters and Correspondents</option>
+                                   <option value='Nonfarm Animal Caretakers'>Nonfarm Animal Caretakers</option>
+                                   <option value='Nurse anesthetists'>Nurse anesthetists</option>
+                                   <option value='Nurse practitioners and nurse midwives'>Nurse practitioners and nurse midwives</option>
+                                   <option value='Nurses'>Nurses</option>
+                                   <option value='Nursing, Psychiatric, and Home Health Aides'>Nursing, Psychiatric, and Home Health Aides</option>
+                                   <option value='Occupational Therapists'>Occupational Therapists</option>
+                                   <option value='Occupational Therapy Assistants and Avaluees'>Occupational Therapy Assistants and Avaluees</option>
+                                   <option value='Office Clerks'>Office Clerks</option>
+                                   <option value='Office Machine Operators, Except Computer'>Office Machine Operators, Except Computer</option>
+                                   <option value='Operations Research Analysts'>Operations Research Analysts</option>
+                                   <option value='Opticians, Dispensing'>Opticians, Dispensing</option>
+                                   <option value='Optometrists'>Optometrists</option>
+                                   <option value='Other Education, Training, and Library Workers'>Other Education, Training, and Library Workers</option>
+                                   <option value='Other Healthcare Practitioners and Technical Occupations'>Other Healthcare Practitioners and Technical Occupations</option>
+                                   <option value='Other Teachers and Instructors'>Other Teachers and Instructors</option>
+                                   <option value='Other Therapists, Including Exercise Physiologists'>Other Therapists, Including Exercise Physiologists</option>
+                                   <option value='Packaging and Filling Machine Operators and Tenders'>Packaging and Filling Machine Operators and Tenders</option>
+                                   <option value='Packers and Packagers, Hand'>Packers and Packagers, Hand</option>
+                                   <option value='Painters and paperhangers'>Painters and paperhangers</option>
+                                   <option value='Painting Workers'>Painting Workers</option>
+                                   <option value='Paper Goods Machine Setters, Operators, and Tenders'>Paper Goods Machine Setters, Operators, and Tenders</option>
+                                   <option value='Paralegals and legal assistants'>Paralegals and legal assistants</option>
+                                   <option value='Parking Lot Attendants'>Parking Lot Attendants</option>
+                                   <option value='Parts Salespersons'>Parts Salespersons</option>
+                                   <option value='Paving, Surfacing, and Tamping Equipment Operators'>Paving, Surfacing, and Tamping Equipment Operators</option>
+                                   <option value='Payroll and Timekeeping Clerks'>Payroll and Timekeeping Clerks</option>
+                                   <option value='Personal Care Avaluees'>Personal Care Avaluees</option>
+                                   <option value='Personal Care and Service Workers, All Other'>Personal Care and Service Workers, All Other</option>
+                                   <option value='Personal financial advisors'>Personal financial advisors</option>
+                                   <option value='Pest Control Workers'>Pest Control Workers</option>
+                                   <option value='Petroleum, mining and geological engineers'>Petroleum, mining and geological engineers</option>
+                                   <option value='Pharmacists'>Pharmacists</option>
+                                   <option value='Pharmacy avaluees'>Pharmacy avaluees</option>
+                                   <option value='Phlebotmists'>Phlebotmists</option>
+                                   <option value='Photographers'>Photographers</option>
+                                   <option value='Photographic Process Workers and Processing Machine Operators'>Photographic Process Workers and Processing Machine Operators</option>
+                                   <option value='Physical Scientists, All Other'>Physical Scientists, All Other</option>
+                                   <option value='Physical Therapist Assistants and Avaluees'>Physical Therapist Assistants and Avaluees</option>
+                                   <option value='Physical Therapists'>Physical Therapists</option>
+                                   <option value='Physician Assistants'>Physician Assistants</option>
+                                   <option value='Physicians and Surgeons'>Physicians and Surgeons</option>
+                                   <option value='Pipelayers, Plumbers, Pipefitters, and Steamfitters'>Pipelayers, Plumbers, Pipefitters, and Steamfitters</option>
+                                   <option value='Podiatrists'>Podiatrists</option>
+                                   <option value='Police Officers'>Police Officers</option>
+                                   <option value='Postal Service Clerks'>Postal Service Clerks</option>
+                                   <option value='Postal Service Mail Carriers'>Postal Service Mail Carriers</option>
+                                   <option value='Postal Service Mail Sorters, Processors, and Processing Machine Operators'>Postal Service Mail Sorters, Processors, and Processing Machine Operators</option>
+                                   <option value='Postsecondary Teachers'>Postsecondary Teachers</option>
+                                   <option value='Power Plant Operators, Distributors, and Dispatchers'>Power Plant Operators, Distributors, and Dispatchers</option>
+                                   <option value='Precision Instrument and Equipment Repairers'>Precision Instrument and Equipment Repairers</option>
+                                   <option value='Prepress Technicians and Workers'>Prepress Technicians and Workers</option>
+                                   <option value='Preschool and Kindergarten Teachers'>Preschool and Kindergarten Teachers</option>
+                                   <option value='Pressers, Textile, Garment, and Related Materials'>Pressers, Textile, Garment, and Related Materials</option>
+                                   <option value='Print binding and finishing workers'>Print binding and finishing workers</option>
+                                   <option value='Printing press operators'>Printing press operators</option>
+                                   <option value='Private Detectives and Investigators'>Private Detectives and Investigators</option>
+                                   <option value='Probation Officers and Correctional Treatment Specialists'>Probation Officers and Correctional Treatment Specialists</option>
+                                   <option value='Procurement Clerks'>Procurement Clerks</option>
+                                   <option value='Producers and Directors'>Producers and Directors</option>
+                                   <option value='Production, Planning, and Expediting Clerks'>Production, Planning, and Expediting Clerks</option>
+                                   <option value='Proofreaders and Copy Markers'>Proofreaders and Copy Markers</option>
+                                   <option value='Property, real estate, and community association managers'>Property, real estate, and community association managers</option>
+                                   <option value='Psychologists'>Psychologists</option>
+                                   <option value='Public relations managers'>Public relations managers</option>
+                                   <option value='Public Relations Specialists'>Public Relations Specialists</option>
+                                   <option value='Pumping Station Operators'>Pumping Station Operators</option>
+                                   <option value='Purchasing agents, except wholesale, retail, and farm products'>Purchasing agents, except wholesale, retail, and farm products</option>
+                                   <option value='Purchasing managers'>Purchasing managers</option>
+                                   <option value='Radiation Therapists'>Radiation Therapists</option>
+                                   <option value='Radio and Telecommunications Equipment Installers and Repairers'>Radio and Telecommunications Equipment Installers and Repairers</option>
+                                   <option value='Railroad Conductors and Yardmasters'>Railroad Conductors and Yardmasters</option>
+                                   <option value='Real Estate Brokers and Sales Agents'>Real Estate Brokers and Sales Agents</option>
+                                   <option value='Receptionists and Information Clerks'>Receptionists and Information Clerks</option>
+                                   <option value='Recreation and Fitness Workers'>Recreation and Fitness Workers</option>
+                                   <option value='Recreational Therapists'>Recreational Therapists</option>
+                                   <option value='Refuse and Recyclable Material Collectors'>Refuse and Recyclable Material Collectors</option>
+                                   <option value='Religious Workers, All Other'>Religious Workers, All Other</option>
+                                   <option value='Reservation and Transportation Ticket Agents and Travel Clerks'>Reservation and Transportation Ticket Agents and Travel Clerks</option>
+                                   <option value='Resvalueential Advisors'>Resvalueential Advisors</option>
+                                   <option value='Respiratory Therapists'>Respiratory Therapists</option>
+                                   <option value='Retail Salespersons'>Retail Salespersons</option>
+                                   <option value='Riggers'>Riggers</option>
+                                   <option value='Rolling Machine Setters, Operators, and Tenders, metal and Plastic'>Rolling Machine Setters, Operators, and Tenders, metal and Plastic</option>
+                                   <option value='Roofers'>Roofers</option>
+                                   <option value='Sailors and marine oilers, and ship engineers'>Sailors and marine oilers, and ship engineers</option>
+                                   <option value='Sales and related workers, all other'>Sales and related workers, all other</option>
+                                   <option value='Sales Engineers'>Sales Engineers</option>
+                                   <option value='Sales Representatives, Services, All Other'>Sales Representatives, Services, All Other</option>
+                                   <option value='Sales Representatives, Wholesale and Manufacturing'>Sales Representatives, Wholesale and Manufacturing</option>
+                                   <option value='Sawing Machine Setters, Operators, and Tenders, Wood'>Sawing Machine Setters, Operators, and Tenders, Wood</option>
+                                   <option value='Secondary School Teachers'>Secondary School Teachers</option>
+                                   <option value='Secretaries and Administrative Assistants'>Secretaries and Administrative Assistants</option>
+                                   <option value='Securities, Commodities, and Financial Services Sales Agents'>Securities, Commodities, and Financial Services Sales Agents</option>
+                                   <option value='Security and Fire Alarm Systems Installers'>Security and Fire Alarm Systems Installers</option>
+                                   <option value='Security guards and gaming surveillance officers'>Security guards and gaming surveillance officers</option>
+                                   <option value='Sewing Machine Operators'>Sewing Machine Operators</option>
+                                   <option value='Sheet Metal Workers'>Sheet Metal Workers</option>
+                                   <option value='Ship and Boat Captains and Operators'>Ship and Boat Captains and Operators</option>
+                                   <option value='Shipping, Receiving, and Traffic Clerks'>Shipping, Receiving, and Traffic Clerks</option>
+                                   <option value='Shoe and leather workers'>Shoe and leather workers</option>
+                                   <option value='Social and community service managers'>Social and community service managers</option>
+                                   <option value='Social and Human Service Assistants'>Social and Human Service Assistants</option>
+                                   <option value='Social Scientists'>Social Scientists</option>
+                                   <option value='Social Workers'>Social Workers</option>
+                                   <option value='Software developers, applications and systems software'>Software developers, applications and systems software</option>
+                                   <option value='Special Education Teachers'>Special Education Teachers</option>
+                                   <option value='Speech Language Pathologists'>Speech Language Pathologists</option>
+                                   <option value='Stationary Engineers and Boiler Operators'>Stationary Engineers and Boiler Operators</option>
+                                   <option value='Statistical Assistants'>Statistical Assistants</option>
+                                   <option value='Stock Clerks and Order Fillers'>Stock Clerks and Order Fillers</option>
+                                   <option value='Structural Iron and Steel Workers'>Structural Iron and Steel Workers</option>
+                                   <option value='Structural Metal Fabricators and Fitters'>Structural Metal Fabricators and Fitters</option>
+                                   <option value='Subway, streetcar, and other rail transportation workers'>Subway, streetcar, and other rail transportation workers</option>
+                                   <option value='Supervisors of Transportation and Material Moving Workers'>Supervisors of Transportation and Material Moving Workers</option>
+                                   <option value='Surveying and Mapping Technicians'>Surveying and Mapping Technicians</option>
+                                   <option value='Surveyors, Cartographers, and Photogrammetrists'>Surveyors, Cartographers, and Photogrammetrists</option>
+                                   <option value='Switchboard Operators, Including Answering Service'>Switchboard Operators, Including Answering Service</option>
+                                   <option value='Tailors, Dressmakers, and Sewers'>Tailors, Dressmakers, and Sewers</option>
+                                   <option value='Tax examiners and collectors, and revenue agents'>Tax examiners and collectors, and revenue agents</option>
+                                   <option value='Tax preparers'>Tax preparers</option>
+                                   <option value='Taxi Drivers and Chauffeurs'>Taxi Drivers and Chauffeurs</option>
+                                   <option value='Teacher Assistants'>Teacher Assistants</option>
+                                   <option value='Technical Writers'>Technical Writers</option>
+                                   <option value='Telecommunications Line Installers and Repairers'>Telecommunications Line Installers and Repairers</option>
+                                   <option value='Telemarketers'>Telemarketers</option>
+                                   <option value='Telephone Operators'>Telephone Operators</option>
+                                   <option value='Television, Vvalueeo, and Motion Picture Camera Operators and Editors'>Television, Vvalueeo, and Motion Picture Camera Operators and Editors</option>
+                                   <option value='Tellers'>Tellers</option>
+                                   <option value='Textile bleaching and dyeing, and cutting machine setters, operators, and tenders'>Textile bleaching and dyeing, and cutting machine setters, operators, and tenders</option>
+                                   <option value='Textile Knitting and Weaving Machine Setters, Operators, and Tenders'>Textile Knitting and Weaving Machine Setters, Operators, and Tenders</option>
+                                   <option value='Textile Winding, Twisting, and Drawing Out Machine Setters, Operators, and Tenders'>Textile Winding, Twisting, and Drawing Out Machine Setters, Operators, and Tenders</option>
+                                   <option value='Tire Builders'>Tire Builders</option>
+                                   <option value='Tool and Die Makers'>Tool and Die Makers</option>
+                                   <option value='Tour and Travel Guvaluees'>Tour and Travel Guvaluees</option>
+                                   <option value='Training and development managers'>Training and development managers</option>
+                                   <option value='Training and development specialists'>Training and development specialists</option>
+                                   <option value='Transportation Attendants, Except Flight Attendants'>Transportation Attendants, Except Flight Attendants</option>
+                                   <option value='Transportation Inspectors'>Transportation Inspectors</option>
+                                   <option value='Transportation Security Screeners'>Transportation Security Screeners</option>
+                                   <option value='Transportation, storage, and distribution managers'>Transportation, storage, and distribution managers</option>
+                                   <option value='Travel Agents'>Travel Agents</option>
+                                   <option value='Upholsterers'>Upholsterers</option>
+                                   <option value='Urban and Regional Planners'>Urban and Regional Planners</option>
+                                   <option value='Ushers, Lobby Attendants, and Ticket Takers'>Ushers, Lobby Attendants, and Ticket Takers</option>
+                                   <option value='Veterinarians'>Veterinarians</option>
+                                   <option value='Veterinary assistants and laboratory animal caretakers'>Veterinary assistants and laboratory animal caretakers</option>
+                                   <option value='Waiters and Waitresses'>Waiters and Waitresses</option>
+                                   <option value='Water Wastewater Treatment Plant and System Operators'>Water Wastewater Treatment Plant and System Operators</option>
+                                   <option value='Web developers'>Web developers</option>
+                                   <option value='Weighers, Measurers, Checkers, and Samplers, Recordkeeping'>Weighers, Measurers, Checkers, and Samplers, Recordkeeping</option>
+                                   <option value='Welding, Soldering, and Brazing Workers'>Welding, Soldering, and Brazing Workers</option>
+                                   <option value='Wholesale and retail buyers, except farm products'>Wholesale and retail buyers, except farm products</option>
+                                   <option value='Woodworking Machine Setters, Operators, and Tenders, Except Sawing'>Woodworking Machine Setters, Operators, and Tenders, Except Sawing</option>
+                                   <option value='Word Processors and Typists'>Word Processors and Typists</option>
+                              </select>
+                         </datalist>
+                        <!-- </div>
+                        </div> -->
+                    </div>
+                </div>
+                <div align="right" class="notes">
+                    <h4>Notes:</h4>
+                    <p>Bar charts represent weighted medians of pre-tax wages and salary income and weighted hourly wage averages. Data has been filtered to remove outliers. Hourly wage is our own calculation.</p>
+                </div>
+                <div class="source">
+                    <h4>Source:</h4>
+                    <p>Steven Ruggles, Sarah Flood, Ronald Goeken, Josiah Grover, Erin Meyer, Jose Pacas, and Matthew Sobek. IPUMS USA: Version 8.0 [dataset]. Minneapolis,MN: IPUMS, 2018.</p>
+                    <p>https://doi.org/10.18128/D010.V8.0</p>
+                </div>
+                </section>        
+                <section id='visualization'>
+                    <div class="occupation-display-container">
+                        <div class="top-border"></div>
+                        <h3 class="occupation-display">Accountants and auditors</h3>
+                        <div class="underline"></div>
+                    </div>
+
+                    <div class="option">
+                        <button name="salaryButton" class="salaryPay" type="button" value="SALARY" onclick="updateDataAgain()">SALARY</button>
+                        <button name="hourlyButton" class="hourlyWage" type="button" value="HOURLY WAGE" onclick="updateData()">HOURLY WAGE</button>
+                    </div>
+
+                    <div id='vis-container'>
+                        <!-- <rect id="rect0">
+                          <image id="people0"></image>
+                        </rect> -->
+                    </div>
+                    <div class="labels">
+                            <span class="single">SINGLE NO CHILDREN</span>
+                            <span class="married">MARRIED NO CHILDREN</span>
+                            <span class="children">MARRIED WITH CHILDREN</span>
+                        </div>
+                        <div id='clock-visual'>
+                     	<svg id="man" width="250" height="250" viewbox="0 0 250 250">
+							  <path id="men" transform="translate(125, 125) scale(.35)"/>
+						</svg>
+						<svg id="woman" width="250" height="250" viewbox="0 0 250 250">
+							  <path id="women" transform="translate(125, 125) scale(.35)"/>
+						</svg>
+						<img src="images/clockgraphic.svg" height="120" width="120">
+                    </div>
+                </section>
+                    <script type="text/javascript">
+                        // Load and munge data, then make the visualization.
+                        var fileName = "pay-gap.csv";
+                        var statusFields = ["SINGLE MEN", "SINGLE WOMEN", "MARRIED MEN NO CHILDREN", "MARRIED WOMEN NO CHILDREN", "MARRIED MEN WITH CHILDREN", "MARRIED WOMEN WITH CHILDREN"];
+
+                        d3.csv(fileName, function(error, data) {
+                            var occupationMap = {};
+                            data.forEach(function(d) {
+                                var occupation = d.occupation;
+                                occupationMap[occupation] = [];
+
+                                // { cerealName: [ bar1Val, bar2Val, ... ] }
+                                statusFields.forEach(function(field) {
+                                    occupationMap[occupation].push( +d[field] );
+                                });
+                            });
+                            makeVis(occupationMap);
+                        });
+
+            var makeVis = function(occupationMap) {
+                // Define dimensions of vis
+                var margin = { top: 115, right: 50, bottom: 30, left: 50 },
+                    width  = (window.innerWidth*.36) - margin.left - margin.right,
+                    height = (window.innerHeight*.55) - margin.top  - margin.bottom,
+                    widthsmall = (window.innerWidth*.40),
+                    win = window.innerWidth;
+
+                // Make x scale
+
+                var newscale = function(win) {   
+          				if (win < 960) { return widthsmall; }  // <== Add these
+          				else { return width; }             // <== Add these
+      					};
+
+      				console.log(newscale(win));
+
+                var xScale = d3.scale.ordinal()
+                    .domain(statusFields)
+                    .rangeRoundBands([0, newscale(win)], 0.1);
+
+                // Make y scale, the domain will be defined on bar update
+                var yScale = d3.scale.linear()
+                    .range([height, 0]);
+
+                // Create canvas
+                var canvas = d3.select("#vis-container")
+                  .append("svg")
+                    .attr("width",  function() {            // <== Add these
+          				if (window.innerWidth <= 960) { return widthsmall + margin.left + margin.right }  // <== Add these
+          				else { return width  + margin.left + margin.right }             // <== Add these
+      					})
+                    .attr("height", height + margin.top  + margin.bottom)
+                  .append("g")
+                    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+                // Make x-axis and add to canvas
+                var xAxis = d3.svg.axis()
+                    .scale(xScale)
+                    .orient("bottom");
+
+                canvas.append("g")
+                    .attr("class", "x axis")
+                    .attr("transform", "translate(0," + height + ")")
+                    .call(xAxis);
+
+                // Make y-axis and add to canvas
+                var yAxis = d3.svg.axis()
+                    .scale(yScale)
+                    .orient("left")
+                    .innerTickSize(-newscale(win))
+                    .outerTickSize(0)
+                    .tickPadding(10);
+
+                var yAxisHandleForUpdate = canvas.append("g")
+                    .attr("class", "y axis")
+                    .call(yAxis);
+
+                yAxisHandleForUpdate.append("text")
+                    .attr("transform", "rotate(-90)")
+                    .attr("y", 6)
+                    .attr("dy", ".71em")
+                    .style("text-anchor", "end");
+
+
+                var updateBars = function(data) {
+                    // First update the y-axis domain to match data
+                    yScale.domain([0,d3.max(data)]);
+                    yAxisHandleForUpdate.call(yAxis);
+
+                    // var oldBars = canvas.selectAll(".bar")
+                    //     .data(data);
+                    //     oldBars.remove();
+                    var ease = d3.easeCubic;
+
+                    var bars = canvas.selectAll(".bar").data(data);
+
+                    // Add bars for new data
+                    bars.enter()
+                      .append("rect")
+                        .attr("id", function(d,i){ return "rect" + i})
+                        .attr("class", "bar")
+                        .attr("x", function(d,i) { return xScale( statusFields[i] ); })
+                        .attr("width", (xScale.rangeBand())-.008*(window.innerWidth))
+                       d3.selectAll("#rect0")
+                         .attr("y", function(d,i) {
+                            return yScale(0);
+                        })
+                        .attr("height", 0)
+                        .transition().duration(1000).ease('easeCubic')
+                        .delay(0)
+                        .attr("y", function(d,i) { return yScale(d); })
+                        .attr("height", function(d,i) { return height - yScale(d); });
+
+                     d3.selectAll("#rect2")
+                         .attr("y", function(d,i) {
+                            return yScale(0);
+                        })
+                        .attr("height", 0)
+                        .transition().duration(1000).ease('easeCubic')
+                        .delay(1000)
+                        .attr("y", function(d,i) { return yScale(d); })
+                        .attr("height", function(d,i) { return height - yScale(d); });
+
+                     d3.selectAll("#rect4")
+                         .attr("y", function(d,i) {
+                            return yScale(0);
+                        })
+                        .attr("height", 0)
+                        .transition().duration(1000).ease('easeCubic')
+                        .delay(2000)
+                        .attr("y", function(d,i) { return yScale(d); })
+                        .attr("height", function(d,i) { return height - yScale(d); });
+
+                    d3.selectAll("#rect1")
+                         .attr("y", function(d,i) {
+                            return yScale(0);
+                        })
+                        .attr("height", 0)
+                        .transition().duration(1000).ease('easeCubic')
+                        .delay(3000)
+                        .attr("y", function(d,i) { return yScale(d); })
+                        .attr("height", function(d,i) { return height - yScale(d); });
+
+                     d3.selectAll("#rect3")
+                         .attr("y", function(d,i) {
+                            return yScale(0);
+                        })
+                        .attr("height", 0)
+                        .transition().duration(1000).ease('easeCubic')
+                        .delay(4000)
+                        .attr("y", function(d,i) { return yScale(d); })
+                        .attr("height", function(d,i) { return height - yScale(d); });
+
+                     d3.selectAll("#rect5")
+                         .attr("y", function(d,i) {
+                            return yScale(0);
+                        })
+                        .attr("height", 0)
+                        .transition().duration(1000).ease('easeCubic')
+                        .delay(5000)
+                        .attr("y", function(d,i) { return yScale(d); })
+                        .attr("height", function(d,i) { return height - yScale(d); });
+
+
+                    // Update old ones, already have x / width from before
+                    bars
+                        d3.selectAll("#rect0")
+                         .attr("y", function(d,i) {
+                            return yScale(0);
+                        })
+                        .attr("height", 0)
+                        .transition().duration(1000).ease('easeCubic')
+                        .delay(0)
+                        .attr("y", function(d,i) { return yScale(d); })
+                        .attr("height", function(d,i) { return height - yScale(d); });
+
+                     d3.selectAll("#rect2")
+                         .attr("y", function(d,i) {
+                            return yScale(0);
+                        })
+                        .attr("height", 0)
+                        .transition().duration(1000).ease('easeCubic')
+                        .delay(1000)
+                        .attr("y", function(d,i) { return yScale(d); })
+                        .attr("height", function(d,i) { return height - yScale(d); });
+
+                     d3.selectAll("#rect4")
+                         .attr("y", function(d,i) {
+                            return yScale(0);
+                        })
+                        .attr("height", 0)
+                        .transition().duration(1000).ease('easeCubic')
+                        .delay(2000)
+                        .attr("y", function(d,i) { return yScale(d); })
+                        .attr("height", function(d,i) { return height - yScale(d); });
+
+                    d3.selectAll("#rect1")
+                         .attr("y", function(d,i) {
+                            return yScale(0);
+                        })
+                        .attr("height", 0)
+                        .transition().duration(1000).ease('easeCubic')
+                        .delay(3000)
+                        .attr("y", function(d,i) { return yScale(d); })
+                        .attr("height", function(d,i) { return height - yScale(d); });
+
+                     d3.selectAll("#rect3")
+                         .attr("y", function(d,i) {
+                            return yScale(0);
+                        })
+                        .attr("height", 0)
+                        .transition().duration(1000).ease('easeCubic')
+                        .delay(4000)
+                        .attr("y", function(d,i) { return yScale(d); })
+                        .attr("height", function(d,i) { return height - yScale(d); });
+
+                     d3.selectAll("#rect5")
+                         .attr("y", function(d,i) {
+                            return yScale(0);
+                        })
+                        .attr("height", 0)
+                        .transition().duration(1000).ease('easeCubic')
+                        .delay(5000)
+                        .attr("y", function(d,i) { return yScale(d); })
+                        .attr("height", function(d,i) { return height - yScale(d); });
+
+                    //clock animation
+
+                    //  var clockErase = d3.selectAll('.radial');
+                    //     clockErase.remove();
+
+                    // var wid = 0.09*window.innerWidth,
+                    //     hei = .150*window.innerHeight,
+                    //     radius = Math.min(wid, hei) / 2;
+
+                    // var color = d3.scale.ordinal()
+                    //     .range(["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"]);
+
+                    // var arc = d3.svg.arc()
+                    //     .outerRadius(radius - 20)
+                    //     .innerRadius(0);
+
+                    // var labelArc = d3.svg.arc()
+                    //     .outerRadius(radius - 40)
+                    //     .innerRadius(radius - 40);
+
+                    // var pie = d3.layout.pie()
+                    //     .sort(null)
+                    //     .value(function(d) { return d.population; });
+
+                    // var clock = d3.select("#clock-visual").append("svg")
+                    //     .attr("class","radial")
+                    //     .attr("width", wid)
+                    //     .attr("height", hei)
+                    //   .append("g")
+                    //     .attr("transform", "translate(" + wid / 2 + "," + hei / 2 + ")");
+
+                    // d3.csv("data.csv", type, function(error, data) {
+                    //   if (error) throw error;
+                      
+                    //   console.log(pie(data))
+
+                    //   var g = clock.selectAll(".arc")
+                    //       .data(pie(data))
+                    //     .enter().append("g")
+                    //       .attr("class", "arc");
+
+                    //   g.append("path")
+                    //       .attr("d", arc)
+                    //       .style("fill", function(d) { return color(d.data.age); });
+
+                    //   g.append("image")
+                    //       .attr("class", "outer")
+                    //       .attr('xlink:href', 'images/clockgraphic.svg')
+                    //       .attr('height', .149*window.innerHeight)
+                    //       .attr('width', 0.08*window.innerWidth)
+                    //       .attr("x", (d3.select('.radial').attr("x"))-(wid/2.22))
+                    //       .attr("y", (d3.select('.radial').attr("y"))-(hei/2));
+                    // });
+
+                    // function type(d) {
+                    //   d.population = +d.population;
+                    //   return d;
+                    // }
+
+
+
+                    var barlabels = canvas.selectAll(".label")
+                        .data(data);
+                        barlabels.remove();
+
+                    var quantity = canvas.selectAll(".text").data(data);
+                   
+                   quantity.enter()
+                      .append("text")
+                      .attr("id", function(d,i){ return "text" + i})
+                      .attr("class","label")
+                      .attr("x", (function(d,i) { return xScale( statusFields[i] ) + (xScale.rangeBand()-.008*(window.innerWidth)) / 2 ; }  ))
+                      .attr("y", function(d,i) { return yScale(d) + 8; })
+                      .attr("dy", ".75em")
+                      .attr("opacity", 0)
+                      d3.selectAll("#text0")
+                      .transition().duration(500).style("opacity", 1)
+                        .delay(1000)
+                      .text(function(d,i) { return d;});
+
+                      d3.selectAll("#text2")
+                      .transition().duration(500).style("opacity", 1)
+                        .delay(2000)
+                      .text(function(d,i) { return d;});
+
+                      d3.selectAll("#text4")
+                      .transition().duration(500).style("opacity", 1)
+                        .delay(3000)
+                      .text(function(d,i) { return d;});
+
+                      d3.selectAll("#text1")
+                      .transition().duration(500).style("opacity", 1)
+                        .delay(4000)
+                      .text(function(d,i) { return d;});
+
+                      d3.selectAll("#text3")
+                      .transition().duration(500).style("opacity", 1)
+                        .delay(5000)
+                      .text(function(d,i) { return d;});
+
+                      d3.selectAll("#text5")
+                      .transition().duration(500).style("opacity", 1)
+                        .delay(6000)
+                      .text(function(d,i) { return d;});
+
+                    // quantity.exit().remove();
+
+                    //insert people
+                    var peoplelabels = d3.selectAll('.people');
+                        peoplelabels.remove();
+
+                       var svg = d3.select('svg').append('svg').attr({
+                              width: window.innerWidth*.36,
+                              height: window.innerWidth*.55,
+                            });
+
+                            svg.append('svg:image')
+                            .attr("xlink:href", "images/single-man-01.svg")
+                            .attr("class","people")
+                            .attr("id","people0")  // can also add svg file here
+                            .attr("x", (d3.select('#text0').attr("x"))-7)
+                            .attr("y", (d3.select('#text0').attr("y")))
+                            .attr("width", 113)
+                            .attr("height", 113)
+                            .attr("opacity", 0)
+                            d3.selectAll("#people0")
+                            .transition().duration(500).style("opacity", 1)
+                            .delay(1000);
+
+                            svg.append('svg:image')
+                            .attr("xlink:href", "images/married-man-01.svg")
+                            .attr("class","people")
+                            .attr("id","people2")  // can also add svg file here
+                            .attr("x", (d3.select('#text2').attr("x"))-7)
+                            .attr("y", (d3.select('#text2').attr("y")))
+                            .attr("width", 113)
+                            .attr("height", 113)
+                            .attr("opacity", 0)
+                            d3.selectAll("#people2")
+                            .transition().duration(500).style("opacity", 1)
+                            .delay(2000);
+
+                            svg.append('svg:image')
+                            .attr("xlink:href", "images/married-with-children-man-01.svg")
+                            .attr("class","people")
+                            .attr("id","people4")  // can also add svg file here
+                            .attr("x", (d3.select('#text4').attr("x"))-7)
+                            .attr("y", (d3.select('#text4').attr("y")))
+                            .attr("width", 113)
+                            .attr("height", 113)
+                            .attr("opacity", 0)
+                            d3.selectAll("#people4")
+                            .transition().duration(500).style("opacity", 1)
+                            .delay(3000);
+
+                            svg.append('svg:image')
+                            .attr("xlink:href", "images/single-woman-01.svg")
+                            .attr("class","people")
+                            .attr("id","people1")  // can also add svg file here
+                            .attr("x", (d3.select('#text1').attr("x"))-17)
+                            .attr("y", (d3.select('#text1').attr("y")))
+                            .attr("width", 113)
+                            .attr("height", 113)
+                            .attr("opacity", 0)
+                            d3.selectAll("#people1")
+                            .transition().duration(500).style("opacity", 1)
+                            .delay(4000);
+
+                            svg.append('svg:image')
+                            .attr("xlink:href", "images/married-woman-01.svg")
+                            .attr("class","people")
+                            .attr("id","people3")  // can also add svg file here
+                            .attr("x", (d3.select('#text3').attr("x"))-20)
+                            .attr("y", (d3.select('#text3').attr("y")))
+                            .attr("width", 113)
+                            .attr("height", 113)
+                            .attr("opacity", 0)
+                            d3.selectAll("#people3")
+                            .transition().duration(500).style("opacity", 1)
+                            .delay(5000);
+
+                            svg.append('svg:image')
+                            .attr("xlink:href", "images/mwc_woman.svg")
+                            .attr("class","people")
+                            .attr("id","people5")  // can also add svg file here
+                            .attr("x", (d3.select('#text5').attr("x"))-17)
+                            .attr("y", (d3.select('#text5').attr("y")))
+                            .attr("width", 113)
+                            .attr("height", 113)
+                            .attr("opacity", 0)
+                            d3.selectAll("#people5")
+                            .transition().duration(500).style("opacity", 1)
+                            .delay(6000);
+                            
+
+                };
+
+                // Handler for dropdown value change
+                var dropdownChange = function() {
+                    var newOccupation = d3.select(this).property('value'),
+                        newData = occupationMap[newOccupation]
+                        d3.select('.occupation-display').text(newOccupation);
+
+                    updateBars(newData);
+
+                    d3.select(".salaryPay").node().focus();
+
+                    // d3.select(".salaryPay").node().focus()
+                    // updateDataAgain(newData);
+                };
+
+                // Get names of cereals, for dropdown
+                var occupations = Object.keys(occupationMap).sort();
+
+                // var dropdown = d3.select('#vis-container')
+                //     .insert("select")
+                //     .on("change", dropdownChange);
+
+                var dropdown = d3.select('select')
+                    .on("change", dropdownChange)
+                    d3.select('input')
+                    .on("change", dropdownChange)
+                    .on("click", dropdownChange)
+                    .on("select", dropdownChange)
+                    .on("keypress", dropdownChange)
+                    d3.select('li')
+                    .on("change", dropdownChange)
+                    .on("click", dropdownChange)
+                    .on("select", dropdownChange)
+                    .on("keypress", dropdownChange)
+                    d3.select('option')
+                    .on("change", dropdownChange)
+                    .on("click", dropdownChange)
+                    .on("select", dropdownChange)
+                    .on("keypress", dropdownChange);
+
+                dropdown.selectAll("option")
+                    .data(occupations)
+                  .enter().append("option")
+                    .attr("value", function (d) { return d; })
+                    .text(function (d) {
+                        return d[0].toUpperCase() + d.slice(1,d.length); // capitalize 1st letter
+                    });
+
+                var initialData = occupationMap[ occupations[0] ];
+                updateBars(initialData);
+            };
+
+
+
+            function updateData() {
+
+                        d3.selectAll("svg").remove();
+
+                        d3.csv("data-alt.csv", function(error, data) {
+                            var occupationMap = {};
+                            data.forEach(function(d) {
+                                var occupation = d.occupation;
+                                occupationMap[occupation] = [];
+
+                                // { cerealName: [ bar1Val, bar2Val, ... ] }
+                                statusFields.forEach(function(field) {
+                                    occupationMap[occupation].push( +d[field] );
+                                });
+                            });
+
+                            d3.select("#vis-container").transition();
+
+                            makeVisAgain(occupationMap);
+                        });
+
+                    var makeVisAgain = function(occupationMap) {
+                // Define dimensions of vis
+                var margin = { top: 115, right: 50, bottom: 30, left: 50 },
+                    width  = (window.innerWidth*.36) - margin.left - margin.right,
+                    height = (window.innerHeight*.55) - margin.top  - margin.bottom,
+                    widthsmall = (window.innerWidth*.40),
+                    win = window.innerWidth;
+
+                // Make x scale
+
+                var newscale = function(win) {   
+          				if (win < 960) { return widthsmall; }  // <== Add these
+          				else { return width; }             // <== Add these
+      					};
+
+      				console.log(newscale(win));
+
+                var xScale = d3.scale.ordinal()
+                    .domain(statusFields)
+                    .rangeRoundBands([0, newscale(win)], 0.1);
+
+                // Make y scale, the domain will be defined on bar update
+                var yScale = d3.scale.linear()
+                    .range([height, 0]);
+
+                // Create canvas
+                var canvas = d3.select("#vis-container")
+                  .append("svg")
+                    .attr("width",  function() {            // <== Add these
+          				if (window.innerWidth <= 960) { return widthsmall + margin.left + margin.right }  // <== Add these
+          				else { return width  + margin.left + margin.right }             // <== Add these
+      					})
+                    .attr("height", height + margin.top  + margin.bottom)
+                  .append("g")
+                    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+                // Make x-axis and add to canvas
+                var xAxis = d3.svg.axis()
+                    .scale(xScale)
+                    .orient("bottom");
+
+                canvas.append("g")
+                    .attr("class", "x axis")
+                    .attr("transform", "translate(0," + height + ")")
+                    .call(xAxis);
+
+                // Make y-axis and add to canvas
+                var yAxis = d3.svg.axis()
+                    .scale(yScale)
+                    .orient("left")
+                    .innerTickSize(-newscale(win))
+                    .outerTickSize(0)
+                    .tickPadding(10);
+
+                var yAxisHandleForUpdate = canvas.append("g")
+                    .attr("class", "y axis")
+                    .call(yAxis);
+
+                yAxisHandleForUpdate.append("text")
+                    .attr("transform", "rotate(-90)")
+                    .attr("y", 6)
+                    .attr("dy", ".71em")
+                    .style("text-anchor", "end");
+
+                var updateBars = function(data) {
+                    // First update the y-axis domain to match data
+                    yScale.domain([0,d3.max(data)]);
+                    yAxisHandleForUpdate.call(yAxis);
+
+                    //   var oldBars = canvas.selectAll(".bar")
+                    //     .data(data);
+                    //     oldBars.remove();
+
+                    var bars = canvas.selectAll(".bar").data(data);
+
+                    // Add bars for new data
+                    bars.enter()
+                      .append("rect")
+                        .attr("id", function(d,i){ return "rect" + i})
+                        .attr("class", "bar")
+                        // .attr("fill", "#A7C9DE")
+                        .attr("x", function(d,i) { return xScale( statusFields[i] ); })
+                        .attr("width", (xScale.rangeBand())-.008*(window.innerWidth))
+                        d3.selectAll("#rect0")
+                         .attr("y", function(d,i) {
+                            return yScale(0);
+                        })
+                        .attr("height", 0)
+                        .transition().duration(1000).ease('easeCubic')
+                        .delay(0)
+                        .attr("y", function(d,i) { return yScale(d); })
+                        .attr("height", function(d,i) { return height - yScale(d); });
+
+                     d3.selectAll("#rect2")
+                         .attr("y", function(d,i) {
+                            return yScale(0);
+                        })
+                        .attr("height", 0)
+                        .transition().duration(1000).ease('easeCubic')
+                        .delay(1000)
+                        .attr("y", function(d,i) { return yScale(d); })
+                        .attr("height", function(d,i) { return height - yScale(d); });
+
+                     d3.selectAll("#rect4")
+                         .attr("y", function(d,i) {
+                            return yScale(0);
+                        })
+                        .attr("height", 0)
+                        .transition().duration(1000).ease('easeCubic')
+                        .delay(2000)
+                        .attr("y", function(d,i) { return yScale(d); })
+                        .attr("height", function(d,i) { return height - yScale(d); });
+
+                    d3.selectAll("#rect1")
+                         .attr("y", function(d,i) {
+                            return yScale(0);
+                        })
+                        .attr("height", 0)
+                        .transition().duration(1000).ease('easeCubic')
+                        .delay(3000)
+                        .attr("y", function(d,i) { return yScale(d); })
+                        .attr("height", function(d,i) { return height - yScale(d); });
+
+                     d3.selectAll("#rect3")
+                         .attr("y", function(d,i) {
+                            return yScale(0);
+                        })
+                        .attr("height", 0)
+                        .transition().duration(1000).ease('easeCubic')
+                        .delay(4000)
+                        .attr("y", function(d,i) { return yScale(d); })
+                        .attr("height", function(d,i) { return height - yScale(d); });
+
+                     d3.selectAll("#rect5")
+                         .attr("y", function(d,i) {
+                            return yScale(0);
+                        })
+                        .attr("height", 0)
+                        .transition().duration(1000).ease('easeCubic')
+                        .delay(5000)
+                        .attr("y", function(d,i) { return yScale(d); })
+                        .attr("height", function(d,i) { return height - yScale(d); });
+
+
+                    // Update old ones, already have x / width from before
+                    bars
+                     d3.selectAll("#rect0")
+                         .attr("y", function(d,i) {
+                            return yScale(0);
+                        })
+                        .attr("height", 0)
+                        .transition().duration(1000).ease('easeCubic')
+                        .delay(0)
+                        .attr("y", function(d,i) { return yScale(d); })
+                        .attr("height", function(d,i) { return height - yScale(d); });
+
+                     d3.selectAll("#rect2")
+                         .attr("y", function(d,i) {
+                            return yScale(0);
+                        })
+                        .attr("height", 0)
+                        .transition().duration(1000).ease('easeCubic')
+                        .delay(1000)
+                        .attr("y", function(d,i) { return yScale(d); })
+                        .attr("height", function(d,i) { return height - yScale(d); });
+
+                     d3.selectAll("#rect4")
+                         .attr("y", function(d,i) {
+                            return yScale(0);
+                        })
+                        .attr("height", 0)
+                        .transition().duration(1000).ease('easeCubic')
+                        .delay(2000)
+                        .attr("y", function(d,i) { return yScale(d); })
+                        .attr("height", function(d,i) { return height - yScale(d); });
+
+                    d3.selectAll("#rect1")
+                         .attr("y", function(d,i) {
+                            return yScale(0);
+                        })
+                        .attr("height", 0)
+                        .transition().duration(1000).ease('easeCubic')
+                        .delay(3000)
+                        .attr("y", function(d,i) { return yScale(d); })
+                        .attr("height", function(d,i) { return height - yScale(d); });
+
+                     d3.selectAll("#rect3")
+                         .attr("y", function(d,i) {
+                            return yScale(0);
+                        })
+                        .attr("height", 0)
+                        .transition().duration(1000).ease('easeCubic')
+                        .delay(4000)
+                        .attr("y", function(d,i) { return yScale(d); })
+                        .attr("height", function(d,i) { return height - yScale(d); });
+
+                     d3.selectAll("#rect5")
+                         .attr("y", function(d,i) {
+                            return yScale(0);
+                        })
+                        .attr("height", 0)
+                        .transition().duration(1000).ease('easeCubic')
+                        .delay(5000)
+                        .attr("y", function(d,i) { return yScale(d); })
+                        .attr("height", function(d,i) { return height - yScale(d); });
+
+                    // Remove old ones
+
+                    var barlabels = canvas.selectAll(".label")
+                        .data(data);
+                        barlabels.remove();
+
+                    var quantity = canvas.selectAll(".text").data(data);
+                   
+                   quantity.enter()
+                      .append("text")
+                      .attr("id", function(d,i){ return "text" + i})
+                      .attr("class","label")
+                      .attr("x", (function(d,i) { return xScale( statusFields[i] ) + (xScale.rangeBand()-.008*(window.innerWidth)) / 2 ; }  ))
+                      .attr("y", function(d,i) { return yScale(d) + 8; })
+                      .attr("dy", ".75em")
+                      .attr("opacity", 0)
+                      d3.selectAll("#text0")
+                      .transition().duration(500).style("opacity", 1)
+                        .delay(1000)
+                      .text(function(d,i) { return d;});
+
+                      d3.selectAll("#text2")
+                      .transition().duration(500).style("opacity", 1)
+                        .delay(2000)
+                      .text(function(d,i) { return d;});
+
+                      d3.selectAll("#text4")
+                      .transition().duration(500).style("opacity", 1)
+                        .delay(3000)
+                      .text(function(d,i) { return d;});
+
+                      d3.selectAll("#text1")
+                      .transition().duration(500).style("opacity", 1)
+                        .delay(4000)
+                      .text(function(d,i) { return d;});
+
+                      d3.selectAll("#text3")
+                      .transition().duration(500).style("opacity", 1)
+                        .delay(5000)
+                      .text(function(d,i) { return d;});
+
+                      d3.selectAll("#text5")
+                      .transition().duration(500).style("opacity", 1)
+                        .delay(6000)
+                      .text(function(d,i) { return d;});
+
+                      var peoplelabels = d3.selectAll('.people');
+                        peoplelabels.remove();
+
+                       var svg = d3.select('svg').append('svg').attr({
+                               width: window.innerWidth*.36,
+                              height: window.innerWidth*.55,
+                            });
+
+                            svg.append('svg:image')
+                            .attr("xlink:href", "images/single-man-01.svg")
+                            .attr("class","people")
+                            .attr("id","people0")  // can also add svg file here
+                            .attr("x", (d3.select('#text0').attr("x"))-7)
+                            .attr("y", (d3.select('#text0').attr("y")))
+                            .attr("width", 113)
+                            .attr("height", 113)
+                            .attr("opacity", 0)
+                            d3.selectAll("#people0")
+                            .transition().duration(500).style("opacity", 1)
+                            .delay(1000);
+
+                            svg.append('svg:image')
+                            .attr("xlink:href", "images/married-man-01.svg")
+                            .attr("class","people")
+                            .attr("id","people2")  // can also add svg file here
+                            .attr("x", (d3.select('#text2').attr("x"))-7)
+                            .attr("y", (d3.select('#text2').attr("y")))
+                            .attr("width", 113)
+                            .attr("height", 113)
+                            .attr("opacity", 0)
+                            d3.selectAll("#people2")
+                            .transition().duration(500).style("opacity", 1)
+                            .delay(2000);
+
+                            svg.append('svg:image')
+                            .attr("xlink:href", "images/married-with-children-man-01.svg")
+                            .attr("class","people")
+                            .attr("id","people4")  // can also add svg file here
+                            .attr("x", (d3.select('#text4').attr("x"))-7)
+                            .attr("y", (d3.select('#text4').attr("y")))
+                            .attr("width", 113)
+                            .attr("height", 113)
+                            .attr("opacity", 0)
+                            d3.selectAll("#people4")
+                            .transition().duration(500).style("opacity", 1)
+                            .delay(3000);
+
+                            svg.append('svg:image')
+                            .attr("xlink:href", "images/single-woman-01.svg")
+                            .attr("class","people")
+                            .attr("id","people1")  // can also add svg file here
+                            .attr("x", (d3.select('#text1').attr("x"))-17)
+                            .attr("y", (d3.select('#text1').attr("y")))
+                            .attr("width", 113)
+                            .attr("height", 113)
+                            .attr("opacity", 0)
+                            d3.selectAll("#people1")
+                            .transition().duration(500).style("opacity", 1)
+                            .delay(4000);
+
+                            svg.append('svg:image')
+                            .attr("xlink:href", "images/married-woman-01.svg")
+                            .attr("class","people")
+                            .attr("id","people3")  // can also add svg file here
+                            .attr("x", (d3.select('#text3').attr("x"))-20)
+                            .attr("y", (d3.select('#text3').attr("y")))
+                            .attr("width", 113)
+                            .attr("height", 113)
+                            .attr("opacity", 0)
+                            d3.selectAll("#people3")
+                            .transition().duration(500).style("opacity", 1)
+                            .delay(5000);
+
+                            svg.append('svg:image')
+                            .attr("xlink:href", "images/mwc_woman.svg")
+                            .attr("class","people")
+                            .attr("id","people5")  // can also add svg file here
+                            .attr("x", (d3.select('#text5').attr("x"))-17)
+                            .attr("y", (d3.select('#text5').attr("y")))
+                            .attr("width",113)
+                            .attr("height", 113)
+                            .attr("opacity", 0)
+                            d3.selectAll("#people5")
+                            .transition().duration(500).style("opacity", 1)
+                            .delay(6000);
+                };
+
+                // Handler for dropdown value change
+                var selectSalary = function() {
+                    var anotherOccupation = d3.select('.occupation-display').text(),
+                        anotherData = occupationMap[anotherOccupation]
+                    updateBars(anotherData);
+
+                    d3.select(".hourlyWage").node().focus();
+                    // updateDataAgain(newData);
+                };
+
+                var occupations = Object.keys(occupationMap).sort();
+
+                var Salary = d3.select('.hourlyWage')
+                    .on("click", selectSalary)
+                    .on("select", selectSalary)
+                    .on("focus", selectSalary);
+
+                selectSalary();
+
+                  var dropdownChange = function() {
+                    var newOccupation = d3.select(this).property('value'),
+                        newData = occupationMap[newOccupation]
+                        d3.select('.occupation-display').text(newOccupation);
+
+                    updateBars(newData);
+
+                    d3.select(".hourlyWage").node().focus();
+
+                    // d3.select(".salaryPay").node().focus()
+                    // updateDataAgain(newData);
+                };
+
+                var dropdown = d3.select('select')
+                    .on("change", dropdownChange)
+                    d3.select('input')
+                     .on("change", dropdownChange)
+                    .on("click", dropdownChange)
+                    .on("select", dropdownChange)
+                    .on("keypress", dropdownChange)
+                    d3.select('li')
+                     .on("change", dropdownChange)
+                    .on("click", dropdownChange)
+                    .on("select", dropdownChange)
+                    .on("keypress", dropdownChange)
+                    d3.select('option')
+                     .on("change", dropdownChange)
+                    .on("click", dropdownChange)
+                    .on("select", dropdownChange)
+                    .on("keypress", dropdownChange);
+
+                dropdown.selectAll("option")
+                    .data(occupations)
+                  .enter().append("option")
+                    .attr("value", function (d) { return d; })
+                    .text(function (d) {
+                        return d[0].toUpperCase() + d.slice(1,d.length); // capitalize 1st letter
+                    });
+
+                // var initialData = occupationMap[ occupations[0] ];
+                // updateBars(initialData);
+            };
+
+        }
+
+
+
+      //   window.onresize = function(makeVis) {
+      //   width = .70*window.innerWidth;
+      //   height = .50*window.innerHeight;
+      // };
+
+                    function updateDataAgain() {
+
+                        d3.selectAll("svg").remove();
+
+                        d3.csv("pay-gap.csv", function(error, data) {
+                            var occupationMap = {};
+                            data.forEach(function(d) {
+                                var occupation = d.occupation;
+                                occupationMap[occupation] = [];
+
+                                // { cerealName: [ bar1Val, bar2Val, ... ] }
+                                statusFields.forEach(function(field) {
+                                    occupationMap[occupation].push( +d[field] );
+                                });
+                            });
+
+                            d3.select("#vis-container").transition();
+
+                            makeVisAnother(occupationMap);
+                        });
+
+                    var makeVisAnother = function(occupationMap) {
+                // Define dimensions of vis
+                 var margin = { top: 115, right: 50, bottom: 30, left: 50 },
+                    width  = (window.innerWidth*.36) - margin.left - margin.right,
+                    height = (window.innerHeight*.55) - margin.top  - margin.bottom,
+                    widthsmall = (window.innerWidth*.40),
+                    win = window.innerWidth;
+
+                // Make x scale
+
+                var newscale = function(win) {   
+          				if (win < 960) { return widthsmall; }  // <== Add these
+          				else { return width; }             // <== Add these
+      					};
+
+      				console.log(newscale(win));
+
+                var xScale = d3.scale.ordinal()
+                    .domain(statusFields)
+                    .rangeRoundBands([0, newscale(win)], 0.1);
+
+                // Make y scale, the domain will be defined on bar update
+                var yScale = d3.scale.linear()
+                    .range([height, 0]);
+
+                // Create canvas
+                var canvas = d3.select("#vis-container")
+                  .append("svg")
+                    .attr("width",  function() {            // <== Add these
+          				if (window.innerWidth <= 960) { return widthsmall + margin.left + margin.right }  // <== Add these
+          				else { return width  + margin.left + margin.right }             // <== Add these
+      					})
+                    .attr("height", height + margin.top  + margin.bottom)
+                  .append("g")
+                    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+                // Make x-axis and add to canvas
+                var xAxis = d3.svg.axis()
+                    .scale(xScale)
+                    .orient("bottom");
+
+                canvas.append("g")
+                    .attr("class", "x axis")
+                    .attr("transform", "translate(0," + height + ")")
+                    .call(xAxis);
+
+                // Make y-axis and add to canvas
+                var yAxis = d3.svg.axis()
+                    .scale(yScale)
+                    .orient("left")
+                    .innerTickSize(-newscale(win))
+                    .outerTickSize(0)
+                    .tickPadding(10);
+
+                var yAxisHandleForUpdate = canvas.append("g")
+                    .attr("class", "y axis")
+                    .call(yAxis);
+
+                yAxisHandleForUpdate.append("text")
+                    .attr("transform", "rotate(-90)")
+                    .attr("y", 6)
+                    .attr("dy", ".71em")
+                    .style("text-anchor", "end");
+
+                var updateBars = function(data) {
+                    // First update the y-axis domain to match data
+                    yScale.domain([0,d3.max(data)]);
+                    yAxisHandleForUpdate.call(yAxis);
+
+                    // var oldBars = canvas.selectAll(".bar")
+                    //     .data(data);
+                    //     oldBars.remove();
+
+                    var bars = canvas.selectAll(".bar").data(data);
+
+                    // Add bars for new data
+                    bars.enter()
+                      .append("rect")
+                        .attr("id", function(d,i){ return "rect" + i})
+                        .attr("class", "bar")
+                        // .attr("fill", "#A7C9DE")
+                        .attr("x", function(d,i) { return xScale( statusFields[i] ); })
+                        .attr("width", (xScale.rangeBand())-.008*(window.innerWidth))
+                        d3.selectAll("#rect0")
+                         .attr("y", function(d,i) {
+                            return yScale(0);
+                        })
+                        .attr("height", 0)
+                        .transition().duration(1000).ease('easeCubic')
+                        .delay(0)
+                        .attr("y", function(d,i) { return yScale(d); })
+                        .attr("height", function(d,i) { return height - yScale(d); });
+
+                     d3.selectAll("#rect2")
+                         .attr("y", function(d,i) {
+                            return yScale(0);
+                        })
+                        .attr("height", 0)
+                        .transition().duration(1000).ease('easeCubic')
+                        .delay(1000)
+                        .attr("y", function(d,i) { return yScale(d); })
+                        .attr("height", function(d,i) { return height - yScale(d); });
+
+                     d3.selectAll("#rect4")
+                         .attr("y", function(d,i) {
+                            return yScale(0);
+                        })
+                        .attr("height", 0)
+                        .transition().duration(1000).ease('easeCubic')
+                        .delay(2000)
+                        .attr("y", function(d,i) { return yScale(d); })
+                        .attr("height", function(d,i) { return height - yScale(d); });
+
+                    d3.selectAll("#rect1")
+                         .attr("y", function(d,i) {
+                            return yScale(0);
+                        })
+                        .attr("height", 0)
+                        .transition().duration(1000).ease('easeCubic')
+                        .delay(3000)
+                        .attr("y", function(d,i) { return yScale(d); })
+                        .attr("height", function(d,i) { return height - yScale(d); });
+
+                     d3.selectAll("#rect3")
+                         .attr("y", function(d,i) {
+                            return yScale(0);
+                        })
+                        .attr("height", 0)
+                        .transition().duration(1000).ease('easeCubic')
+                        .delay(4000)
+                        .attr("y", function(d,i) { return yScale(d); })
+                        .attr("height", function(d,i) { return height - yScale(d); });
+
+                     d3.selectAll("#rect5")
+                         .attr("y", function(d,i) {
+                            return yScale(0);
+                        })
+                        .attr("height", 0)
+                        .transition().duration(1000).ease('easeCubic')
+                        .delay(5000)
+                        .attr("y", function(d,i) { return yScale(d); })
+                        .attr("height", function(d,i) { return height - yScale(d); });
+                        
+
+
+                    // Update old ones, already have x / width from before
+                    bars
+                    d3.selectAll("#rect0")
+                         .attr("y", function(d,i) {
+                            return yScale(0);
+                        })
+                        .attr("height", 0)
+                        .transition().duration(1000).ease('easeCubic')
+                        .delay(0)
+                        .attr("y", function(d,i) { return yScale(d); })
+                        .attr("height", function(d,i) { return height - yScale(d); });
+
+                     d3.selectAll("#rect2")
+                         .attr("y", function(d,i) {
+                            return yScale(0);
+                        })
+                        .attr("height", 0)
+                        .transition().duration(1000).ease('easeCubic')
+                        .delay(1000)
+                        .attr("y", function(d,i) { return yScale(d); })
+                        .attr("height", function(d,i) { return height - yScale(d); });
+
+                     d3.selectAll("#rect4")
+                         .attr("y", function(d,i) {
+                            return yScale(0);
+                        })
+                        .attr("height", 0)
+                        .transition().duration(1000).ease('easeCubic')
+                        .delay(2000)
+                        .attr("y", function(d,i) { return yScale(d); })
+                        .attr("height", function(d,i) { return height - yScale(d); });
+
+                    d3.selectAll("#rect1")
+                         .attr("y", function(d,i) {
+                            return yScale(0);
+                        })
+                        .attr("height", 0)
+                        .transition().duration(1000).ease('easeCubic')
+                        .delay(3000)
+                        .attr("y", function(d,i) { return yScale(d); })
+                        .attr("height", function(d,i) { return height - yScale(d); });
+
+                     d3.selectAll("#rect3")
+                         .attr("y", function(d,i) {
+                            return yScale(0);
+                        })
+                        .attr("height", 0)
+                        .transition().duration(1000).ease('easeCubic')
+                        .delay(4000)
+                        .attr("y", function(d,i) { return yScale(d); })
+                        .attr("height", function(d,i) { return height - yScale(d); });
+
+                     d3.selectAll("#rect5")
+                         .attr("y", function(d,i) {
+                            return yScale(0);
+                        })
+                        .attr("height", 0)
+                        .transition().duration(1000).ease('easeCubic')
+                        .delay(5000)
+                        .attr("y", function(d,i) { return yScale(d); })
+                        .attr("height", function(d,i) { return height - yScale(d); });
+
+                    // Remove old ones
+
+                    var barlabels = canvas.selectAll(".label")
+                        .data(data);
+                        barlabels.remove();
+
+                    var quantity = canvas.selectAll(".text").data(data);
+                   
+                   quantity.enter()
+                      .append("text")
+                      .attr("id", function(d,i){ return "text" + i})
+                      .attr("class","label")
+                      .attr("x", (function(d,i) { return xScale( statusFields[i] ) + (xScale.rangeBand()-.008*(window.innerWidth)) / 2 ; }  ))
+                      .attr("y", function(d,i) { return yScale(d) + 8; })
+                      .attr("dy", ".75em")
+                      .attr("opacity", 0)
+                      d3.selectAll("#text0")
+                      .transition().duration(500).style("opacity", 1)
+                        .delay(1000)
+                      .text(function(d,i) { return d;});
+
+                      d3.selectAll("#text2")
+                      .transition().duration(500).style("opacity", 1)
+                        .delay(2000)
+                      .text(function(d,i) { return d;});
+
+                      d3.selectAll("#text4")
+                      .transition().duration(500).style("opacity", 1)
+                        .delay(3000)
+                      .text(function(d,i) { return d;});
+
+                      d3.selectAll("#text1")
+                      .transition().duration(500).style("opacity", 1)
+                        .delay(4000)
+                      .text(function(d,i) { return d;});
+
+                      d3.selectAll("#text3")
+                      .transition().duration(500).style("opacity", 1)
+                        .delay(5000)
+                      .text(function(d,i) { return d;});
+
+                      d3.selectAll("#text5")
+                      .transition().duration(500).style("opacity", 1)
+                        .delay(6000)
+                      .text(function(d,i) { return d;});
+
+                    //images of people
+
+                    var peoplelabels = d3.selectAll('.people');
+                        peoplelabels.remove();
+
+                       var svg = d3.select('svg').append('svg').attr({
+                               width: window.innerWidth*.36,
+                              height: window.innerWidth*.55,
+                            });
+
+                            svg.append('svg:image')
+                            .attr("xlink:href", "images/single-man-01.svg")
+                            .attr("class","people")
+                            .attr("id","people0")  // can also add svg file here
+                            .attr("x", (d3.select('#text0').attr("x"))-7)
+                            .attr("y", (d3.select('#text0').attr("y")))
+                            .attr("width", 113)
+                            .attr("height", 113)
+                            .attr("opacity", 0)
+                            d3.selectAll("#people0")
+                            .transition().duration(500).style("opacity", 1)
+                            .delay(1000);
+
+                            svg.append('svg:image')
+                            .attr("xlink:href", "images/married-man-01.svg")
+                            .attr("class","people")
+                            .attr("id","people2")  // can also add svg file here
+                            .attr("x", (d3.select('#text2').attr("x"))-7)
+                            .attr("y", (d3.select('#text2').attr("y")))
+                            .attr("width", 113)
+                            .attr("height", 113)
+                            .attr("opacity", 0)
+                            d3.selectAll("#people2")
+                            .transition().duration(500).style("opacity", 1)
+                            .delay(2000);
+
+                            svg.append('svg:image')
+                            .attr("xlink:href", "images/married-with-children-man-01.svg")
+                            .attr("class","people")
+                            .attr("id","people4")  // can also add svg file here
+                            .attr("x", (d3.select('#text4').attr("x"))-7)
+                            .attr("y", (d3.select('#text4').attr("y")))
+                            .attr("width", 113)
+                            .attr("height", 113)
+                            .attr("opacity", 0)
+                            d3.selectAll("#people4")
+                            .transition().duration(500).style("opacity", 1)
+                            .delay(3000);
+
+                            svg.append('svg:image')
+                            .attr("xlink:href", "images/single-woman-01.svg")
+                            .attr("class","people")
+                            .attr("id","people1")  // can also add svg file here
+                            .attr("x", (d3.select('#text1').attr("x"))-17)
+                            .attr("y", (d3.select('#text1').attr("y")))
+                            .attr("width", 113)
+                            .attr("height", 113)
+                            .attr("opacity", 0)
+                            d3.selectAll("#people1")
+                            .transition().duration(500).style("opacity", 1)
+                            .delay(4000);
+
+                            svg.append('svg:image')
+                            .attr("xlink:href", "images/married-woman-01.svg")
+                            .attr("class","people")
+                            .attr("id","people3")  // can also add svg file here
+                            .attr("x", (d3.select('#text3').attr("x"))-20)
+                            .attr("y", (d3.select('#text3').attr("y")))
+                            .attr("width", 113)
+                            .attr("height", 113)
+                            .attr("opacity", 0)
+                            d3.selectAll("#people3")
+                            .transition().duration(500).style("opacity", 1)
+                            .delay(5000);
+
+                            svg.append('svg:image')
+                            .attr("xlink:href", "images/mwc_woman.svg")
+                            .attr("class","people")
+                            .attr("id","people5")  // can also add svg file here
+                            .attr("x", (d3.select('#text5').attr("x"))-17)
+                            .attr("y", (d3.select('#text5').attr("y")))
+                            .attr("width", 113)
+                            .attr("height", 113)
+                            .attr("opacity", 0)
+                            d3.selectAll("#people5")
+                            .transition().duration(500).style("opacity", 1)
+                            .delay(6000);
+
+                };
+
+                // Handler for dropdown value change
+                var selectSalary = function() {
+                    var newOccupation = d3.select('.occupation-display').text(),
+                        newData = occupationMap[newOccupation]
+                    updateBars(newData);
+
+                    // d3.select(".salaryPay").node().focus()
+                    // updateDataAgain(newData);
+                };
+
+                var occupations = Object.keys(occupationMap).sort();
+
+                var Salary = d3.select('.salaryPay')
+                    .on("click", selectSalary)
+                    .on("select", selectSalary)
+                    .on("focus", selectSalary);
+
+                selectSalary();
+
+                  var dropdownChange = function() {
+                    var newOccupation = d3.select(this).property('value'),
+                        newData = occupationMap[newOccupation]
+                        d3.select('.occupation-display').text(newOccupation);
+
+                    updateBars(newData);
+
+                    d3.select(".salaryPay").node().focus();
+
+                    // d3.select(".salaryPay").node().focus()
+                    // updateDataAgain(newData);
+                };
+
+                var dropdown = d3.select('select')
+                    .on("change", dropdownChange)
+                    d3.select('input')
+                    .on("change", dropdownChange)
+                    .on("click", dropdownChange)
+                    .on("select", dropdownChange)
+                    .on("keypress", dropdownChange)
+                    d3.select('li')
+                    .on("change", dropdownChange)
+                    .on("click", dropdownChange)
+                    .on("select", dropdownChange)
+                    .on("keypress", dropdownChange)
+                    d3.select('option')
+                    .on("change", dropdownChange)
+                    .on("click", dropdownChange)
+                    .on("select", dropdownChange)
+                    .on("keypress", dropdownChange);
+
+                dropdown.selectAll("option")
+                    .data(occupations)
+                  .enter().append("option")
+                    .attr("value", function (d) { return d; })
+                    .text(function (d) {
+                        return d[0].toUpperCase() + d.slice(1,d.length); // capitalize 1st letter
+                    });
+
+                // var initialData = occupationMap[ occupations[0] ];
+                // updateBars(initialData);
+            };
+
+        }
+
+
+
+        </script>
+
+
+            </div>
+     </main>
+    <footer>
+        <div class="wrapper">
+        	<!-- For more information, visit: https://visme.co/blog/wage-gap/ -->
+        </div>
+    </footer>
+        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
+        <script src="https://d3js.org/d3-ease.v1.min.js"></script>
+        <script src="js/datalist.polyfill.min.js"></script>
+        <script src="js/index.js"></script>
+        <script src="js/data.js"></script>
+        <script src="js/hours.js"></script>
+
+<!-- </div>
+</div>   -->    <!-- </div> -->
+</body>
+
+</html>

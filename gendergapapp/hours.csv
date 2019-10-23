@@ -1,0 +1,468 @@
+Profession,married_men,married_women,difference,work_more
+Accountants and auditors,9.0,7.7,1.3,men
+Actors,7.0,6.4,0.6,men
+Actuaries,8.9,8.4,0.5,men
+Adhesive Bonding Machine Operators and Tenders,8.3,9.4,1.1,women
+Administrative services managers,8.9,8.3,0.6,men
+Advertising and promotions managers,9.1,7.8,1.3,men
+Advertising Sales Agents,8.9,7.9,1.0,men
+Aerospace Engineers,8.7,8.3,0.4,men
+"Agents and business managers of artists, performers, and atheletes",8.5,8.0,0.5,men
+Agricultural and Food Science Technicians,8.7,8.1,0.6,men
+Agricultural and Food Scientists,8.8,7.6,1.2,men
+Agricultural Inspectors,9.2,8.2,1.0,men
+Air Traffic Controllers and Airfield Operations Specialists,8.5,8.1,0.4,men
+Aircraft Mechanics and Service Technicians,8.9,9.7,0.8,women
+Aircraft Pilots and Flight Engineers,9.1,7.6,1.5,men
+"Aircraft Structure, Surfaces, Rigging, and Systems Assemblers",8.4,7.2,1.2,men
+"Ambulance Drivers and Attendants, Except Emergency Medical Technicians",8.3,8.6,0.3,women
+Animal Control Workers,7.9,8.4,0.5,women
+Animal Trainers,9.6,7.5,2.1,men
+Announcers,8.2,7.7,0.5,men
+Appraisers and assessors of real estate,9.2,7.8,1.4,men
+"Architects, Except Naval",8.8,7.6,1.2,men
+Architectural and engineering managers,9.4,8.6,0.8,men
+"Archivists, Curators, and Museum Technicians",9.6,7.7,1.9,men
+Artists and Related Workers,8.6,6.8,1.8,men
+Astronomers and Physicists,9.0,8.7,0.3,men
+"Athletes, Coaches, Umpires, and Related Workers",8.9,4.7,4.2,men
+Atmospheric and Space Scientists,8.6,6.1,2.5,men
+Audiologists,7.2,7.0,0.2,men
+Automotive and Watercraft Service Attendants,8.5,6.5,2.0,men
+Automotive Body and Related Repairers,8.7,8.0,0.7,men
+Automotive Service Technicians and Mechanics,8.8,7.9,0.9,men
+Avionics Technicians,9.0,8.5,0.5,men
+"Baggage Porters, Bellhops, and Concierges",7.9,7.3,0.6,men
+"Bailiffs, Correctional Officers, and Jailers",8.7,8.7,0.0,neither
+Bakers,8.0,7.1,0.9,men
+Barbers,8.0,6.9,1.1,men
+Bartenders,7.7,6.2,1.5,men
+Bill and Account Collectors,8.6,8.0,0.6,men
+Billing and Posting Clerks,8.1,7.4,0.7,men
+Biological Scientists,8.5,8.2,0.3,men
+Biological Technicians,9.0,8.0,1.0,men
+Biomedical and agricultural engineers,9.8,8.0,1.8,men
+"Bookkeeping, Accounting, and Auditing Clerks",8.4,7.0,1.4,men
+"Brickmasons, blockmasons, stonemasons, and reinforcing iron and rebar workers",8.2,6.0,2.2,men
+"Broadcast and Sound Engineering Technicians and Radio Operators, and media and communication equipment workers, all other",8.5,7.3,1.2,men
+Brokerage Clerks,9.4,7.2,2.2,men
+Budget analysts,8.8,8.1,0.7,men
+Bus and Truck Mechanics and Diesel Engine Specialists,8.9,7.8,1.1,men
+Bus Drivers,8.0,6.3,1.7,men
+"Business operations specialists, all others",8.8,8.0,0.8,men
+"Butchers and Other Meat, Poultry, and Fish Processing Workers",8.4,8.1,0.3,men
+"Buyers and purchasing agents, farm products",9.9,7.5,2.4,men
+Cabinetmakers and Bench Carpenters,8.6,8.0,0.6,men
+Cargo and Freight Agents,8.3,7.3,1.0,men
+Carpenters,8.4,8.1,0.3,men
+"Carpet, Floor, and Tile Installers and Finishers",8.5,5.6,2.9,men
+Cashiers,7.5,6.2,1.3,men
+Chefs and Head Cooks,9.2,7.6,1.6,men
+Chemical Engineers,9.1,8.1,1.0,men
+"Chemical Processing Machine Setters, Operators, and Tenders",8.9,8.0,0.9,men
+Chemical Technicians,8.9,8.3,0.6,men
+Chemists and Materials Scientists,8.8,8.3,0.5,men
+Chief executives and legislators,10.0,8.8,1.2,men
+Childcare Workers,7.2,5.7,1.5,men
+Chiropractors,8.3,6.8,1.5,men
+Civil Engineers,8.8,7.9,0.9,men
+"Claims adjusters, appraisers, examiners, and investigators",8.8,8.1,0.7,men
+Cleaners of Vehicles and Equipment,8.5,6.6,1.9,men
+Clergy,9.1,6.8,2.3,men
+Clinical Laboratory Technologists and Technicians,8.4,7.2,1.2,men
+"Coin, Vending, and Amusement Machine Servicers and Repairers",8.5,7.8,0.7,men
+"Combined Food Preparation and Serving Workers, Including Fast Food",7.4,6.4,1.0,men
+"Communications Equipment Operators, All Other",9.6,5.5,4.1,men
+Compensation and benefits managers,9.6,8.4,1.2,men
+"Compensation, benefits, and job analysis specialists",8.4,8.3,0.1,men
+Compliance officers,8.7,8.2,0.5,men
+Computer and information research scientists,9.1,8.2,0.9,men
+Computer and information systems managers,9.0,8.5,0.5,men
+Computer Control Programmers and Operators,9.2,8.2,1.0,men
+Computer Hardware Engineers,8.7,8.6,0.1,men
+Computer network architects,8.9,8.3,0.6,men
+"Computer occupations, all other",8.6,8.0,0.6,men
+Computer Operators,8.6,7.1,1.5,men
+Computer programmers,8.6,7.9,0.7,men
+Computer support specialists,8.4,7.8,0.6,men
+Computer systems analysts,8.5,8.2,0.3,men
+"Computer, Automated Teller, and Office Machine Repairers",8.5,7.9,0.6,men
+Conservation Scientists and Foresters,8.5,7.8,0.7,men
+Construction and Building Inspectors,8.9,8.0,0.9,men
+"Construction equipment operators except paving, surfacing, and tamping equipment operators",9.2,8.8,0.4,men
+Construction Laborers,8.4,7.1,1.3,men
+Construction managers,9.4,8.2,1.2,men
+Control and Valve Installers and Repairers,8.2,7.8,0.4,men
+"Conveyor operators and tenders, and hoist and winch operators",8.9,8.0,0.9,men
+Cooks,8.1,6.6,1.5,men
+Correspondent clerks and order clerks,8.5,7.6,0.9,men
+Cost estimators,9.1,7.4,1.7,men
+Counselors,8.2,7.4,0.8,men
+Counter and Rental Clerks,8.5,6.8,1.7,men
+"Counter Attendant, Cafeteria, Food Concession, and Coffee Shop",8.2,5.4,2.8,men
+Couriers and Messengers,8.6,5.8,2.8,men
+"Court, Municipal, and License Clerks",8.1,7.4,0.7,men
+Crane and Tower Operators,9.6,8.8,0.8,men
+Credit analysts,9.1,8.5,0.6,men
+"Credit Authorizers, Checkers, and Clerks",8.7,8.3,0.4,men
+Credit counselors and loan officers,8.8,8.0,0.8,men
+Crossing Guards,8.1,4.0,4.1,men
+"Crushing, Grinding, Polishing, Mixing, and Blending Workers",8.9,7.8,1.1,men
+Customer Service Representatives,8.4,7.3,1.1,men
+Cutting Workers,8.4,7.9,0.5,men
+Dancers and Choreographers,8.1,6.4,1.7,men
+Data Entry Keyers,8.0,7.1,0.9,men
+Database Administrators,8.6,7.9,0.7,men
+Dental assistants,8.0,6.7,1.3,men
+Dental Hygienists,7.9,6.0,1.9,men
+Dentists,8.3,7.0,1.3,men
+"Derrick, rotary drill, and service unit operators, and roustabouts, oil, gas, and mining",11.0,9.9,1.1,men
+Designers,8.5,7.1,1.4,men
+Detectives and Criminal Investigators,9.1,8.5,0.6,men
+Diagnostic Related Technologists and Technicians,8.6,7.2,1.4,men
+Dieticians and Nutritionists,8.3,6.7,1.6,men
+"Directors, Religious Activities and Education",8.8,5.8,3.0,men
+Dishwashers,7.2,6.2,1.0,men
+Dispatchers,9.0,8.1,0.9,men
+"DoortoDoor Sales Workers, News and Street Vendors, and Related Workers",7.9,4.2,3.7,men
+Drafters,8.5,7.4,1.1,men
+"Dredge, Excavating, and Loading Machine Operators",9.4,10.0,0.6,women
+Driver/Sales Workers and Truck Drivers,9.4,7.5,1.9,men
+"Drywall Installers, Ceiling Tile Installers, and Tapers",8.0,7.6,0.4,men
+"Earth Drillers, Except Oil and Gas",10.8,8.0,2.8,men
+Economists,9.0,8.4,0.6,men
+Editors,8.3,7.0,1.3,men
+Education administrators,9.5,8.4,1.1,men
+"Electric Motor, Power Tool, and Related Repairers",9.0,8.8,0.2,men
+Electrical and Electronics Engineers,8.8,8.5,0.3,men
+"Electrical and electronics repairers, transportation equipment, and industrial and utility",8.9,8.0,0.9,men
+Electrical PowerLine Installers and Repairers,9.2,6.7,2.5,men
+"Electrical, Electronics, and Electromechanical Assemblers",8.6,7.8,0.8,men
+Electricians,8.6,8.2,0.4,men
+"Electronic Equipment Installers and Repairers, Motor Vehicles",8.4,5.6,2.8,men
+Electronic Home Entertainment Equipment Installers and Repairers,8.8,9.6,0.8,women
+Elementary and Middle School Teachers,8.7,7.8,0.9,men
+Elevator Installers and Repairers,8.6,10.0,1.4,women
+"Eligibility Interviewers, Government Programs",8.2,8.0,0.2,men
+Embalmers and Funeral Attendants,7.8,6.9,0.9,men
+Emergency management directors,8.5,7.5,1.0,men
+Emergency Medical Technicians and Paramedics,9.8,8.9,0.9,men
+Engine and Other Machine Assemblers,8.9,8.4,0.5,men
+"Engineering Technicians, Except Drafters",8.7,8.0,0.7,men
+"Entertainers and Performers, Sports and Related Workers, All Other",7.5,5.5,2.0,men
+Environmental Engineers,8.7,8.0,0.7,men
+Environmental Scientists and Geoscientists,8.7,7.9,0.8,men
+Etchers and Engravers,9.1,4.8,4.3,men
+"Explosives Workers, Ordnance Handling Experts, and Blasters",9.9,10.0,0.1,women
+"Extruding and Drawing Machine Setters, Operators, and Tenders, Metal and Plastic",8.6,8.0,0.6,men
+"Extruding, Forming, Pressing, and Compacting Machine Setters, Operators, and Tenders",9.2,7.5,1.7,men
+"Farmers, ranchers, and other agricultural managers",11.0,8.8,2.2,men
+Fence Erectors,8.6,8.0,0.6,men
+File Clerks,8.7,7.0,1.7,men
+Financial analysts,9.2,8.3,0.9,men
+"Financial clerks, all other",9.3,7.9,1.4,men
+Financial examiners,7.6,8.5,0.9,women
+Financial managers,9.4,8.4,1.0,men
+"Financial specialists, all other",9.3,8.2,1.1,men
+Fire Inspectors,8.3,8.0,0.3,men
+Firefighters,11.1,9.6,1.5,men
+FirstLine Enlisted Military Supervisors,10.4,10.3,0.1,men
+FirstLine Supervisors of Construction Trades and Extraction Workers,9.4,8.7,0.7,men
+FirstLine Supervisors of Correctional Officers,8.8,8.5,0.3,men
+"FirstLine Supervisors of Farming, Fishing, and Forestry Workers",10.5,8.4,2.1,men
+FirstLine Supervisors of Fire Fighting and Prevention Workers,11.0,10.7,0.3,men
+FirstLine Supervisors of Food Preparation and Serving Workers,8.7,7.5,1.2,men
+FirstLine Supervisors of Gaming Workers,8.1,8.5,0.4,women
+FirstLine Supervisors of Housekeeping and Janitorial Workers,9.0,8.0,1.0,men
+"FirstLine Supervisors of Landscaping, Lawn Service, and Groundskeeping Workers",9.7,7.6,2.1,men
+"FirstLine Supervisors of Mechanics, Installers, and Repairers",9.3,8.6,0.7,men
+FirstLine Supervisors of NonRetail Sales,9.4,8.5,0.9,men
+FirstLine Supervisors of Office and Administrative Support Workers,8.9,7.9,1.0,men
+FirstLine Supervisors of Personal Service Workers,9.0,7.9,1.1,men
+FirstLine Supervisors of Police and Detectives,8.9,8.4,0.5,men
+FirstLine Supervisors of Production and Operating Workers,9.3,8.6,0.7,men
+"Firstline supervisors of protective service workers, all other",8.7,8.6,0.1,men
+FirstLine Supervisors of Retail Sales Workers,9.4,8.1,1.3,men
+Fishing and hunting workers,10.3,9.1,1.2,men
+Flight attendants,7.2,7.0,0.2,men
+"Food and Tobacco Roasting, Baking, and Drying Machine Operators and Tenders",8.6,6.3,2.3,men
+Food Batchmakers,8.1,6.7,1.4,men
+Food Cooking Machine Operators and Tenders,8.4,7.8,0.6,men
+Food Preparation Workers,7.8,6.2,1.6,men
+"Food Processing Workers, All Other",8.8,8.1,0.7,men
+"Food Servers, Nonrestaurant",6.5,6.3,0.2,men
+Food service managers,10.0,8.4,1.6,men
+Forest and Conservation Workers,8.7,6.0,2.7,men
+Fundraisers,9.3,7.5,1.8,men
+"Furnace, Kiln, Oven, Drier, and Kettle Operators and Tenders",8.9,6.3,2.6,men
+Furniture Finishers,7.9,8.0,0.1,women
+Gaming Cage Workers,8.0,6.7,1.3,men
+Gaming managers,9.6,8.3,1.3,men
+Gaming Services Workers,7.6,7.2,0.4,men
+General and operations managers,9.8,8.9,0.9,men
+Geological and Petroleum Technicians,9.2,9.1,0.1,men
+Glaziers,8.3,8.0,0.3,men
+"Graders and Sorters, Agricultural Products",8.6,7.9,0.7,men
+Grounds Maintenance Workers,8.3,6.9,1.4,men
+"Hairdressers, Hairstylists, and Cosmetologists",8.3,6.5,1.8,men
+Hazardous Materials Removal Workers,8.0,6.5,1.5,men
+"Health Diagnosing and Treating Practitioners, All Other",7.4,7.1,0.3,men
+Health practitioner support technologists and technicians,7.9,7.1,0.8,men
+"Healthcare support workers, all other, including medical equipment preparers",8.1,6.6,1.5,men
+"Heating, Air Conditioning, and Refrigeration Mechanics and Installers",8.7,13.0,4.3,women
+Heavy Vehicle and Mobile Equipment Service Technicians and Mechanics,9.2,8.0,1.2,men
+"Helpers, Construction Trades",7.9,10.0,2.1,women
+"HelpersInstallation, Maintenance, and Repair Workers",8.4,6.0,2.4,men
+HelpersProduction Workers,8.3,6.9,1.4,men
+Highway Maintenance Workers,8.5,7.9,0.6,men
+Home Appliance Repairers,8.5,6.0,2.5,men
+"Host and Hostesses, Restaurant, Lounge, and Coffee Shop",7.6,5.8,1.8,men
+"Hotel, Motel, and Resort Desk Clerks",7.8,7.3,0.5,men
+Human resource workers,9.2,8.2,1.0,men
+"Human Resources Assistants, Except Payroll and Timekeeping",8.3,8.0,0.3,men
+Human resources managers,9.4,8.8,0.6,men
+Industrial and Refractory Machinery Mechanics,8.9,7.7,1.2,men
+"Industrial Engineers, including Health and Safety",9.2,8.2,1.0,men
+Industrial production managers,9.5,8.6,0.9,men
+Industrial Truck and Tractor Operators,8.6,8.3,0.3,men
+"Information and Record Clerks, All Other",9.0,7.5,1.5,men
+Information security analysts,8.8,8.3,0.5,men
+"Inspectors, Testers, Sorters, Samplers, and Weighers",8.9,7.7,1.2,men
+Insulation Workers,8.5,8.0,0.5,men
+Insurance Claims and Policy Processing Clerks,8.4,7.9,0.5,men
+Insurance Sales Agents,8.9,7.8,1.1,men
+Insurance underwriters,8.7,8.0,0.7,men
+"Interviewers, Except Eligibility and Loan",8.1,7.1,1.0,men
+Janitors and Building Cleaners,8.0,6.0,2.0,men
+Jewelers and Precious Stone and Metal Workers,8.1,5.0,3.1,men
+Judicial law clerks,8.2,7.2,1.0,men
+"Laborers and Freight, Stock, and Material Movers",8.3,7.2,1.1,men
+Laundry and DryCleaning Workers,7.7,7.1,0.6,men
+"Lawyers, and judges, magistrates, and other judicial workers",9.8,8.6,1.2,men
+Librarians,7.6,6.9,0.7,men
+"Library Assistants, Clerical",7.9,5.4,2.5,men
+Library Technicians,6.1,5.1,1.0,men
+Licensed Practical and Licensed Vocational Nurses,8.5,7.5,1.0,men
+"Lifeguards and Other Recreational, and All Other Protective Service Workers",7.7,4.5,3.2,men
+Loan Interviewers and Clerks,8.8,8.1,0.7,men
+Locomotive Engineers and Operators,9.7,12.0,2.3,women
+Lodging managers,9.3,8.4,0.9,men
+Logging Workers,9.2,7.3,1.9,men
+Logisticians,9.0,8.0,1.0,men
+Machine Feeders and Offbearers,8.4,7.6,0.8,men
+"Machine tool cutting setters, operators, and tenders, metal and plastic",8.6,8.3,0.3,men
+Machinists,8.7,8.8,0.1,women
+Maids and Housekeeping Cleaners,8.0,6.6,1.4,men
+"Mail Clerks and Mail Machine Operators, Except Postal Service",8.6,7.0,1.6,men
+"Maintenance and Repair Workers, General",8.7,7.3,1.4,men
+"Maintenance Workers, Machinery",8.9,8.4,0.5,men
+Management analysts,9.1,7.8,1.3,men
+Managers,9.3,8.2,1.1,men
+Marine Engineers and Naval Architects,9.2,9.2,0.0,neither
+Market research analysts and marketing specialists,9.0,7.7,1.3,men
+Marketing and sales managers,9.5,8.3,1.2,men
+Massage therapists,6.3,5.3,1.0,men
+Materials Engineers,9.2,9.1,0.1,men
+Mathematical science occupations,8.5,8.1,0.4,men
+Mechanical Engineers,8.9,8.1,0.8,men
+Medical and health service managers,9.1,8.4,0.7,men
+Medical assistants,8.2,7.3,0.9,men
+Medical Records and Health Information Technicians,8.3,7.7,0.6,men
+"Medical Scientists, and Life Scientists, All Others",8.9,8.3,0.6,men
+Medical transcriptionists,7.4,6.9,0.5,men
+"Medical, Dental, and Ophthalmic Laboratory Technicians",8.6,7.2,1.4,men
+"Meeting, convention, and event planners",8.0,6.9,1.1,men
+"Metal Furnace Operators, Tenders, Pourers, and Casters",9.1,9.1,0.0,neither
+"Meter Readers, Utilities",8.8,7.6,1.2,men
+Military Enlisted Tactical Operations and Air/Weapons Specialists and Crew Members,10.0,9.8,0.2,men
+Military Officer Special and Tactical Operations Leaders,10.7,10.2,0.5,men
+"Military, Rank Not Specified",9.9,8.4,1.5,men
+Millwrights,9.3,9.6,0.3,women
+Miscellaneous agricultural workers including animal breeders,9.3,8.1,1.2,men
+Miscellaneous Assemblers and Fabricators,8.5,8.0,0.5,men
+"Miscellaneous Community and Social Service Specialists, Including Health Educators and Community Health Workers",8.5,7.4,1.1,men
+"Miscellaneous construction workers including solar photovaltaic installers, and septic tank servicers and sewer pipe cleaners",8.3,3.9,4.4,men
+Miscellaneous engineeers including nuclear engineers,8.9,8.0,0.9,men
+Miscellaneous Entertainment Attendants and Related Workers,7.2,5.6,1.6,men
+Miscellaneous extraction workers including roof bolters and helpers,10.7,9.4,1.3,men
+Miscellaneous food preparation and serving related workers including dining room and cafeteria attendants and bartender helpers,7.3,5.4,1.9,men
+Miscellaneous health technologists and technicians,8.4,7.5,0.9,men
+"Miscellaneous installation, maintenance, and repair workers, including wind turbine service technicians",8.7,7.1,1.6,men
+Miscellaneous law enforcement workers,7.7,8.0,0.3,women
+Miscellaneous legal support workers,8.9,7.9,1.0,men
+"Miscellaneous Life, Physical, and Social Science Technicians",8.2,7.2,1.0,men
+"Miscellaneous material moving workers including shuttle car operators, and tank car, truck, and ship loaders",9.0,4.2,4.8,men
+Miscellaneous Media and Communication Workers,7.6,6.0,1.6,men
+"Miscellaneous metal workers and plastic workers, including multiple machine tool setters",8.7,8.4,0.3,men
+Miscellaneous office and administrative support workers including desktop publishers,8.6,7.6,1.0,men
+Miscellaneous Personal Appearance Workers,8.7,7.3,1.4,men
+Miscellaneous Plant and System Operators,9.4,8.7,0.7,men
+"Miscellaneous production workers, including semiconductor processors",8.7,7.9,0.8,men
+"Miscellaneous textile, apparel, and furnishings workers except upholsterers",8.2,8.9,0.7,women
+"Miscellaneous Vehicle and Mobile Equipment Mechanics, Installers, and Repairers",8.0,8.8,0.8,women
+Miscellaneous woodworkers including model makers and patternmakers,8.1,5.1,3.0,men
+"Model makers, patternmakers, and molding machine setters, metal and plastic",8.9,8.4,0.5,men
+"Models, Demonstrators, and Product Promoters",7.2,5.4,1.8,men
+"Molders, Shapers, and Casters, Except Metal and Plastic",8.4,8.8,0.4,women
+"Morticians, undertakers, and funeral directors",9.9,8.1,1.8,men
+"Motor Vehicle Operators, All Other",7.1,6.4,0.7,men
+"Musicians, Singers, and Related Workers",7.4,4.6,2.8,men
+Natural science managers,9.1,8.1,1.0,men
+Network and Computer Systems Administrators,8.6,7.7,0.9,men
+New Account Clerks,8.0,7.8,0.2,men
+"News Analysts, Reporters and Correspondents",8.5,8.2,0.3,men
+Nonfarm Animal Caretakers,9.2,6.4,2.8,men
+Nurse anesthetists,8.9,7.6,1.3,men
+Nurse practitioners and nurse midwives,9.1,7.6,1.5,men
+Nurses,8.2,7.2,1.0,men
+"Nursing, Psychiatric, and Home Health Aides",7.8,7.0,0.8,men
+Occupational Therapists,8.2,6.5,1.7,men
+Occupational Therapy Assistants and Aides,7.2,6.9,0.3,men
+Office Clerks,8.1,6.9,1.2,men
+"Office Machine Operators, Except Computer",8.2,7.6,0.6,men
+Operations Research Analysts,8.4,8.1,0.3,men
+"Opticians, Dispensing",7.8,7.1,0.7,men
+Optometrists,8.7,7.0,1.7,men
+"Other Education, Training, and Library Workers",8.2,7.3,0.9,men
+Other Healthcare Practitioners and Technical Occupations,9.1,8.1,1.0,men
+Other Teachers and Instructors,8.3,5.9,2.4,men
+"Other Therapists, Including Exercise Physiologists",8.4,6.8,1.6,men
+Packaging and Filling Machine Operators and Tenders,8.3,8.0,0.3,men
+"Packers and Packagers, Hand",8.3,7.6,0.7,men
+Painters and paperhangers,8.1,7.1,1.0,men
+Painting Workers,8.7,7.4,1.3,men
+"Paper Goods Machine Setters, Operators, and Tenders",9.0,8.7,0.3,men
+Paralegals and legal assistants,8.4,7.5,0.9,men
+Parking Lot Attendants,7.6,7.0,0.6,men
+Parts Salespersons,8.6,8.0,0.6,men
+"Paving, Surfacing, and Tamping Equipment Operators",8.8,8.7,0.1,men
+Payroll and Timekeeping Clerks,8.5,7.6,0.9,men
+Personal Care Aides,7.7,6.5,1.2,men
+"Personal Care and Service Workers, All Other",8.7,5.7,3.0,men
+Personal financial advisors,9.0,8.1,0.9,men
+Pest Control Workers,8.7,4.5,4.2,men
+"Petroleum, mining and geological engineers",9.5,8.8,0.7,men
+Pharmacists,8.4,7.2,1.2,men
+Pharmacy aides,8.3,7.3,1.0,men
+Phlebotmists,8.0,7.4,0.6,men
+Photographers,8.4,5.6,2.8,men
+Photographic Process Workers and Processing Machine Operators,8.4,6.1,2.3,men
+"Physical Scientists, All Other",8.7,8.0,0.7,men
+Physical Therapist Assistants and Aides,8.3,6.5,1.8,men
+Physical Therapists,8.9,6.7,2.2,men
+Physician Assistants,9.0,7.6,1.4,men
+Physicians and Surgeons,10.7,9.2,1.5,men
+"Pipelayers, Plumbers, Pipefitters, and Steamfitters",8.7,9.1,0.4,women
+Podiatrists,10.0,7.7,2.3,men
+Police Officers,9.0,8.4,0.6,men
+Postal Service Clerks,8.3,7.3,1.0,men
+Postal Service Mail Carriers,8.5,7.6,0.9,men
+"Postal Service Mail Sorters, Processors, and Processing Machine Operators",7.9,7.4,0.5,men
+Postsecondary Teachers,8.6,7.2,1.4,men
+"Power Plant Operators, Distributors, and Dispatchers",8.9,7.8,1.1,men
+Precision Instrument and Equipment Repairers,8.7,7.9,0.8,men
+Prepress Technicians and Workers,8.4,5.7,2.7,men
+Preschool and Kindergarten Teachers,8.1,6.5,1.6,men
+"Pressers, Textile, Garment, and Related Materials",7.6,6.8,0.8,men
+Print binding and finishing workers,8.6,7.9,0.7,men
+Printing press operators,8.4,7.6,0.8,men
+Private Detectives and Investigators,8.5,7.5,1.0,men
+Probation Officers and Correctional Treatment Specialists,8.3,8.1,0.2,men
+Procurement Clerks,8.8,8.2,0.6,men
+Producers and Directors,9.3,8.4,0.9,men
+"Production, Planning, and Expediting Clerks",8.8,7.7,1.1,men
+Proofreaders and Copy Markers,7.6,6.1,1.5,men
+"Property, real estate, and community association managers",8.8,7.8,1.0,men
+Psychologists,8.9,7.2,1.7,men
+Public relations managers,9.2,8.4,0.8,men
+Public Relations Specialists,9.2,7.9,1.3,men
+Pumping Station Operators,9.8,8.9,0.9,men
+"Purchasing agents, except wholesale, retail, and farm products",8.6,8.1,0.5,men
+Purchasing managers,9.1,8.4,0.7,men
+Radiation Therapists,8.2,7.8,0.4,men
+Radio and Telecommunications Equipment Installers and Repairers,8.6,8.0,0.6,men
+Railroad Conductors and Yardmasters,10.3,11.4,1.1,women
+Real Estate Brokers and Sales Agents,9.1,7.3,1.8,men
+Receptionists and Information Clerks,7.8,6.9,0.9,men
+Recreation and Fitness Workers,7.9,4.5,3.4,men
+Recreational Therapists,8.5,8.2,0.3,men
+Refuse and Recyclable Material Collectors,8.0,7.8,0.2,men
+"Religious Workers, All Other",8.2,5.3,2.9,men
+Reservation and Transportation Ticket Agents and Travel Clerks,8.4,7.5,0.9,men
+Residential Advisors,8.5,7.9,0.6,men
+Respiratory Therapists,8.0,7.1,0.9,men
+Retail Salespersons,8.7,6.2,2.5,men
+Riggers,9.6,12.5,2.9,women
+"Rolling Machine Setters, Operators, and Tenders, metal and Plastic",8.6,8.1,0.5,men
+Roofers,8.3,7.3,1.0,men
+"Sailors and marine oilers, and ship engineers",9.7,9.1,0.6,men
+"Sales and related workers, all other",8.9,7.5,1.4,men
+Sales Engineers,9.1,8.6,0.5,men
+"Sales Representatives, Services, All Other",9.0,8.1,0.9,men
+"Sales Representatives, Wholesale and Manufacturing",9.2,8.0,1.2,men
+"Sawing Machine Setters, Operators, and Tenders, Wood",8.3,8.3,0.0,neither
+Secondary School Teachers,8.9,7.9,1.0,men
+Secretaries and Administrative Assistants,8.5,7.1,1.4,men
+"Securities, Commodities, and Financial Services Sales Agents",9.5,8.2,1.3,men
+Security and Fire Alarm Systems Installers,8.6,8.0,0.6,men
+Security guards and gaming surveillance officers,8.2,7.6,0.6,men
+Sewing Machine Operators,8.3,7.3,1.0,men
+Sheet Metal Workers,8.5,8.0,0.5,men
+Ship and Boat Captains and Operators,10.8,10.2,0.6,men
+"Shipping, Receiving, and Traffic Clerks",8.3,7.4,0.9,men
+Shoe and leather workers,8.5,8.5,0.0,neither
+Social and community service managers,8.9,7.9,1.0,men
+Social and Human Service Assistants,8.0,7.3,0.7,men
+Social Scientists,8.5,7.3,1.2,men
+Social Workers,8.3,7.8,0.5,men
+"Software developers, applications and systems software",8.5,8.1,0.4,men
+Special Education Teachers,8.4,7.9,0.5,men
+Speech Language Pathologists,7.8,7.0,0.8,men
+Stationary Engineers and Boiler Operators,8.8,6.8,2.0,men
+Statistical Assistants,8.4,7.2,1.2,men
+Stock Clerks and Order Fillers,7.9,6.8,1.1,men
+Structural Iron and Steel Workers,9.0,8.8,0.2,men
+Structural Metal Fabricators and Fitters,8.7,8.0,0.7,men
+"Subway, streetcar, and other rail transportation workers",9.0,9.4,0.4,women
+Supervisors of Transportation and Material Moving Workers,9.4,8.5,0.9,men
+Surveying and Mapping Technicians,9.0,7.7,1.3,men
+"Surveyors, Cartographers, and Photogrammetrists",8.6,7.0,1.6,men
+"Switchboard Operators, Including Answering Service",6.9,8.0,1.1,women
+"Tailors, Dressmakers, and Sewers",7.7,6.7,1.0,men
+"Tax examiners and collectors, and revenue agents",7.9,7.4,0.5,men
+Tax preparers,9.2,7.1,2.1,men
+Taxi Drivers and Chauffeurs,8.3,6.4,1.9,men
+Teacher Assistants,7.2,6.2,1.0,men
+Technical Writers,8.3,7.4,0.9,men
+Telecommunications Line Installers and Repairers,8.7,8.0,0.7,men
+Telemarketers,7.8,7.0,0.8,men
+Telephone Operators,8.6,7.1,1.5,men
+"Television, Video, and Motion Picture Camera Operators and Editors",8.2,5.4,2.8,men
+Tellers,7.7,7.0,0.7,men
+"Textile bleaching and dyeing, and cutting machine setters, operators, and tenders",8.6,8.1,0.5,men
+"Textile Knitting and Weaving Machine Setters, Operators, and Tenders",8.0,7.1,0.9,men
+"Textile Winding, Twisting, and Drawing Out Machine Setters, Operators, and Tenders",9.9,8.0,1.9,men
+Tire Builders,8.7,9.6,0.9,women
+Tool and Die Makers,9.0,5.0,4.0,men
+Tour and Travel Guides,8.3,5.5,2.8,men
+Training and development managers,9.7,8.7,1.0,men
+Training and development specialists,9.0,8.0,1.0,men
+"Transportation Attendants, Except Flight Attendants",8.3,6.1,2.2,men
+Transportation Inspectors,9.0,8.0,1.0,men
+Transportation Security Screeners,8.4,7.6,0.8,men
+"Transportation, storage, and distribution managers",9.2,8.3,0.9,men
+Travel Agents,7.7,7.6,0.1,men
+Upholsterers,8.2,6.4,1.8,men
+Urban and Regional Planners,8.3,7.7,0.6,men
+"Ushers, Lobby Attendants, and Ticket Takers",9.0,5.2,3.8,men
+Veterinarians,9.5,7.8,1.7,men
+Veterinary assistants and laboratory animal caretakers,9.0,6.6,2.4,men
+Waiters and Waitresses,7.4,6.0,1.4,men
+Water Wastewater Treatment Plant and System Operators,8.6,7.8,0.8,men
+Web developers,8.3,6.8,1.5,men
+"Weighers, Measurers, Checkers, and Samplers, Recordkeeping",8.7,8.3,0.4,men
+"Welding, Soldering, and Brazing Workers",8.9,9.0,0.1,women
+"Wholesale and retail buyers, except farm products",8.8,6.8,2.0,men
+"Woodworking Machine Setters, Operators, and Tenders, Except Sawing",8.3,9.6,1.3,women
+Word Processors and Typists,8.1,7.0,1.1,men
+Writers and Authors,8.3,6.7,1.6,men
